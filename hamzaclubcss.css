@@ -1,0 +1,3745 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+     box-sizing: border-box;
+     width: 100%;
+}
+
+#nav{
+    width: 100%;
+    height: 30px;
+    background-image: linear-gradient(to right, rgb(23, 0, 128),rgb(2, 0, 128),rgb(9, 0, 128),  white );
+    position: fixed;
+    z-index: 1;
+   
+    
+}
+
+#nav .logo{
+    float: left;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 200px;
+    margin-left: 10%;
+    text-shadow: black 2px 5px 6px;
+}
+#nav .logo .h{
+    color: white;
+    
+
+}
+
+#nav .logo .mc{
+    color: rgb(68, 221, 68);
+}
+
+
+#nav .socialdiv{
+    float: right;
+    margin: auto;
+}
+#nav .socialdiv a{
+    
+}
+#nav .socialdiv .socialcontact{
+    float: right;
+    position: relative;
+    width: auto;
+    font-size: 18px;
+    
+    font-style: italic ;
+    padding: 5px;
+    color: rgb(68, 221, 68);
+    text-shadow: black 2px 5px 6px;
+}
+.right-hand{
+    border-radius: 6px;
+    float: right;
+ animation: hand 2s linear infinite;
+ padding: 8px;
+ position: relative;
+ 
+ 
+}
+@keyframes hand{
+  
+    0%{ color: red; }
+    15%{ color: green;}
+    25%{ color: blue; }
+    35%{ color: yellow; }
+    45%{ color: rgb(3, 142, 255);}
+    50%{ color: rgb(253, 9, 143);}
+    65%{ color: aqua; }
+    75%{ color: brown;}
+    85%{ color: rgb(13, 250, 13); }
+    100%{ color: white;}
+
+}
+#nav .fa-facebook{
+float: right;
+color: #1877f2 ;
+padding: 5px;
+font-size: 20px;
+z-index: 1;
+text-shadow: gray 1px 5px 16px;
+}
+#nav .fa-facebook:hover{
+    transform: rotate(360deg);
+    transition: .5s;
+    cursor: pointer;
+    color: #000;
+}
+
+#nav .fa-whatsapp{
+    float: right;
+    margin-right: 20px;
+    padding: 5px;
+    color: #4FCE5D;
+    z-index: 1;
+    font-size: 20px;
+    text-shadow: gray 1px 5px 16px;
+
+}
+
+#nav .fa-whatsapp:hover{
+    transform: rotate(360deg);
+    transition: .5s;
+    color: #000;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/*-----------------SLide show Chat GPT start-------------------------- */
+.slideshow-container {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    
+    background: transparent;
+
+  }
+  
+  .slide {
+    position: absolute;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100%;
+    transition: right 0.4s ease-in-out;
+  }
+  .slide:hover{
+    opacity: .8;
+  }
+  .slide.active {
+    right: 0;
+    }
+  .slide.active::before{
+      left: -100%;
+  
+  }
+  
+/*-----------------SLide show Chat GPT End -------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.head{
+    background-color:black;
+    height: 110px;
+    width: 100%;
+    float: left;
+/*background-image: url("web1pic/pexels-sebastiaan-stam-1097456.jpg");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+position: relative;    
+}
+.head h1{
+    background-color: white;
+    float: left;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    
+}
+/*
+.home{
+    width: 10%;
+    height: 20px;
+    border-radius: 0 0 5px 5px;
+    background-color: rgb(18, 22, 22);
+    float: left;
+    margin-left: 5px;
+    text-align: center;
+    color: white;
+   
+  
+
+}*/
+
+
+/*
+
+
+  <div class="menuitems" id="menuitems"> 
+        <a href="index.html" class="home">  Home </a>
+        <a href="index.html" class="home">  Web Series </a>
+        <a href="index.html" class="home">  Dual audio </a>
+        <a href="index.html" class="home">  bollywood </a>
+        <a href="index.html" class="home">  English </a>
+        <a href="index.html" class="home">  Horror</a>
+        <a href="index.html" class="home">  Pakistani </a>
+        <a href="#formid" class="contact"> Contact Us </a>
+        <a href="about.html" class="about" target="_blank"> About Us </a>
+        <a href="about.html" class="privacy" target="_blank"> Privacy </a>
+    </div>
+
+*/
+
+
+ .menuitems{
+
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 40px;
+    display: block;
+    margin-top: 30px;
+  
+    background-color: black;
+    border-bottom: 1px solid whitesmoke ;
+}
+ .menuitems a{
+    position: relative;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-right: 1px solid whitesmoke;
+    float: left;
+   
+}
+ .menuitems a:hover{
+    color: green;
+    transition: 0.5s;
+    border-bottom: 1px solid whitesmoke;
+    border-left: 1px solid whitesmoke;
+
+}
+
+
+.searchbox {  position: absolute;
+    margin-left: 75%;
+    box-sizing: none;
+    height: 20px;
+    top: 35px;
+
+}
+  
+  
+
+.searchbox input{
+     box-sizing: none;
+    height:20px
+}
+.searchbox button{
+    background-color: rgb(18, 22, 22);
+    color: white;
+    cursor: pointer;
+    
+    
+}
+.searchbox button:hover{
+border-bottom: 1px solid white;
+background-color: rgb(24, 29, 29);
+transition: .5s;
+}
+.blank{
+    width: 100%;
+    height: 30px;
+    background-image: linear-gradient(to right, rgb(23, 0, 128),rgb(2, 0, 128),rgb(9, 0, 128),  white );
+    float: left;
+    position: relative;
+    margin-top: 10px;
+
+}
+.blank marquee{
+    color: rgb(68, 221, 68);
+    position: relative;
+}
+.note{
+    color: red;
+}
+.line{
+    float: left;
+    background-image: linear-gradient(to right, rgb(23, 0, 128),rgb(2, 0, 128),rgb(9, 0, 128),  white );
+border: none;
+    width: 100%;
+    height: 5px;
+    position: relative;
+    
+}
+
+
+
+
+
+/*-------------HMC home page-----------------*/
+
+
+
+.webseries{
+    width: 80%;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 10%;
+    background-color: rgb(44, 43, 43), ;
+    border: 3px solid  green;
+    box-shadow: inset 3px 5px 15px 5px  rgb(82, 82, 87);
+    box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
+
+    float: left; 
+    text-align: center;
+    border-radius: 0px 0px 25px 25px;
+    
+}
+.webseries:hover{
+    height: 700px;
+    transition: .5s;
+    border-radius: 0px;
+
+}
+.webseries .heading1{
+    color: green;
+    font-weight: bolder;
+    text-shadow: 2px 3px 5px #312e2e;
+}
+.webseries .heading1:hover{
+    color: red;
+}
+.webseries img{
+    height: 0px;
+    width: 100%;
+    filter: blur(5px);
+}
+.webseries:hover img{
+    transition: 0.5s;
+    height: 620px;
+    
+}
+
+.webseries img:hover{
+    opacity: .6;
+   
+
+
+}
+
+.webseries a:hover{
+    color: rgb(68, 221, 68);
+    transition: .6s;
+}
+.webseries a{
+    text-decoration: none;
+      color: white;
+}
+
+
+
+.hollywoodmovies{
+    text-align: center;
+    width: 80%;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 10%;
+    background-color: rgb(44, 43, 43), ;
+    border: 3px solid  green;
+    box-shadow: inset 3px 5px 15px 5px  rgb(82, 82, 87);
+    box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
+    color: white;
+    float: left; 
+    border-radius: 0px 0px 25px 25px;
+}
+.hollywoodmovies:hover{
+    height: 700px;
+    transition: 0.5s;
+    border-radius: 0px;
+
+}
+.hollywoodmovies .heading1{
+    color: green;
+    font-weight: bolder;
+    text-shadow: 2px 3px 5px #312e2e;
+}
+.hollywoodmovies .heading1:hover{
+    color: red;
+}
+.hollywoodmovies img{
+    width:100% ;
+    height: 0px;
+    filter: blur(5px);
+
+}
+.hollywoodmovies:hover img{
+    height: 620px;
+    transition: 0.5s;
+}
+.hollywoodmovies img:hover{
+    opacity: .6;
+    transition: 0.5s;
+}
+.hollywoodmoviesa:hover{
+    color: rgb(68, 221, 68);
+    transition: .6s;
+}
+.hollywoodmovies a{
+    text-decoration: none;
+    color: white;
+}
+.bollywoodmovies{
+    width: 80%;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 10%;
+    background-color: rgb(44, 43, 43), ;
+    border: 3px solid  green;
+    box-shadow: inset 3px 5px 15px 5px  rgb(82, 82, 87);
+    box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
+    color: white;
+    float: left; 
+    text-align: center;
+    border-radius: 0px 0px 25px 25px;
+
+}
+.bollywoodmovies:hover{
+    height: 700px;
+    transition: 0.5s;
+    border-radius: 0px;
+
+
+}
+.bollywoodmovies .heading1{
+    color: green;
+    font-weight: bolder;
+    text-shadow: 2px 3px 5px #312e2e;
+}
+.bollywoodmovies .heading1:hover{
+    color: red;
+}
+.bollywoodmovies img{
+    width:100% ;
+    height: 0px;
+    filter: blur(7px);
+
+}
+.bollywoodmovies:hover img{
+    
+    height: 620px;
+    transition: 0.5s;
+}
+
+.bollywoodmovies img:hover{
+    opacity: .6;
+    transition: 0.5s;
+}
+.bollywoodmovies a:hover{
+    color: rgb(68, 221, 68);
+    transition: .6s;
+}
+.bollywoodmovies a{
+    text-decoration: none;
+    color: white;}
+.pakistanimovies{
+    width: 80%;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 10%;
+    background-color: rgb(44, 43, 43), ;
+    border: 3px solid  green;
+    box-shadow: inset 3px 5px 15px 5px  rgb(82, 82, 87);
+    box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
+    color: white;
+    float: left; 
+    text-align: center;
+    border-radius: 0px 0px 25px 25px;
+
+    
+}
+.pakistanimovies:hover{
+    height: 700px;
+    transition: 0.5s;
+    border-radius: 0px;
+
+
+}
+.pakistanimovies .heading1{
+    color: green;
+    font-weight: bolder;
+    text-shadow: 2px 3px 5px #312e2e;
+}
+.pakistanimovies .heading1:hover{
+    color: red;
+}
+.pakistanimovies img{
+    width:100% ;
+    height:0px;
+    filter: blur(7px);
+
+}
+.pakistanimovies:hover img{
+    
+    height: 620px;
+    transition: 0.5s;
+}
+
+.pakistanimovies img:hover{
+    opacity: .6;
+    transition: 0.5s;
+}
+.pakistanimovies a:hover{
+    color: rgb(68, 221, 68);
+    transition: .6s;
+}
+.pakistanimovies a{
+    text-decoration: none;
+    color: white;}
+.southindianmovies{
+    width: 80%;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 10%;
+    background-color: rgb(44, 43, 43), ;
+    border: 3px solid  green;
+    box-shadow:  3px 5px 15px 5px  rgb(2, 0, 128);
+    color: white;
+    float: left;    
+    text-align: center;
+    border-radius: 0px 0px 25px 25px;
+
+}
+.southindianmovies:hover{
+    height: 700px;
+    transition: 0.5s;
+    border-radius: 0px;
+
+}
+.southindianmovies .heading1{
+    color: green;
+    font-weight: bolder;
+    text-shadow: 2px 3px 5px #312e2e;
+}
+.southindianmovies .heading1:hover{
+    color: red;
+}
+.southindianmovies img{
+    width:100% ;
+    height: 0px;
+    filter: blur(7px);
+
+}
+.southindianmovies:hover img{
+    
+    height: 620px;
+    transition: 0.5s;
+}
+
+.southindianmovies img:hover{
+    opacity: .6;
+    transition: 0.5s;
+}
+.southindianmovies a:hover{
+    color: rgb(68, 221, 68);
+    transition: .6s;
+}
+.southindianmovies a{
+    text-decoration: none;
+    color: white;}
+
+
+
+/*-------------HMC home page End-----------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.movies{
+    float: left;
+    color: rgb(68, 221, 68);
+    width: 100%;
+    height: 45px;
+    margin-top: 20px;
+    
+}
+.movies #h2 {
+    margin-left: 10px;
+    color: rgb(68, 221, 68);
+}
+.movies #h2 .your{
+    color:whitesmoke;
+}
+
+
+/*---------Movies started---------*/
+
+.creed3{
+    float: left;
+    width: 30%;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 2%;
+    background-color: rgb(18, 22, 22);
+    border: 1px solid  white;
+    box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
+    
+    
+    
+}
+.creed3 .text{
+    margin: 0%;
+    position: relative;
+    padding: 0;
+}
+.creed3 img{
+    height: 350px;
+}
+.creed3 img:hover{
+    opacity: .6;
+    transition: 0.5s;
+        transform: rotateY(-180deg);
+
+}
+.creed3 a:hover{
+    color: rgb(68, 221, 68);
+    transition: .6s;
+}
+.creed3 a{
+    text-decoration: none;
+      color: white;
+}
+
+
+
+
+
+.shazam2{
+    float: left;
+    width: 30%;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 2%;
+    background-color: rgb(18, 22, 22);
+    border: 1px solid  white;
+    box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
+    
+    
+    
+}
+.shazam2 .text{
+    margin: 0%;
+    position: relative;
+    padding: 0;
+}
+.shazam2 img{
+    height: 350px;
+}
+.shazam2 img:hover{
+    opacity: .6;
+    transition: 0.5s;
+        transform: rotateY(-180deg);
+
+}
+.shazam2 a:hover{
+    color: rgb(68, 221, 68);
+    transition: .6s;
+}
+.shazam2 a{
+    text-decoration: none;
+      color: white;
+}
+
+
+.pathaan{
+    float: left;
+    width: 30%;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 2%;
+    background-color: rgb(18, 22, 22);
+    border: 1px solid  white;
+    box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
+    
+    
+    
+}
+.pathaan.text{
+    
+}
+.pathaan img{
+    height: 345px;
+}
+.pathaan img:hover{
+    opacity: .6;
+    transition: 0.5s;
+        transform: rotateY(-180deg);
+
+}
+.pathaan a:hover{
+    color: rgb(68, 221, 68);
+    transition: .6s;
+}
+.pathaan a{
+    text-decoration: none;
+      color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.movie1{
+    float: left;
+    width: 30%;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 2%;
+    background-color: rgb(18, 22, 22);
+    border: 1px solid  white;
+    box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
+    
+    
+    
+}
+.movie1 .text{
+    margin: 0%;
+    position: relative;
+    padding: 0;
+}
+.movie1 img{
+    height: 350px;
+}
+.movie1 img:hover{
+    opacity: .6;
+    transition: 0.5s;
+        transform: rotateY(-180deg);
+
+}
+.movie1 a:hover{
+    color: rgb(68, 221, 68);
+    transition: .6s;
+}
+.movie1 a{
+    text-decoration: none;
+      color: white;
+}
+
+.movie2{
+    float: left;
+    width: 30%;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 2%;
+    background-color: rgb(18, 22, 22);
+    border: 1px solid  white;
+    box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
+    color: white;
+
+}
+
+.movie2 .text{
+    
+    margin: 0%;
+    position: relative;
+    padding: 0;
+}
+.movie2 img{
+    height: 350px;
+}
+.movie2 img:hover{
+    opacity: .6;
+    transform: rotateY(-180deg);
+
+    transition: 0.5s;
+}
+.movie2 a:hover{
+    color: rgb(68, 221, 68);
+    transition: .6s;
+}
+.movie2 a{
+    text-decoration: none;
+    color: white;
+}
+.movie3{
+    float: left;
+    width: 30%;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 2%;
+    background-color: rgb(18, 22, 22);
+    border: 1px solid  white;
+    box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
+    color: white;
+
+}
+
+.movie3 .text{
+    margin: 0%;
+    position: relative;
+    padding: 0;
+}
+.movie3 img{
+    height: 350px;
+}
+.movie3 img:hover{
+    opacity: .6;
+    transition: 0.5s;
+    transform: rotateY(-180deg);
+
+}
+.movie3 a:hover{
+    color: rgb(68, 221, 68);
+    transition: .6s;
+}
+.movie3 a{
+    text-decoration: none;
+    color: white;}
+.movie4{
+    float: left;
+    width: 30%;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 2%;
+    background-color: rgb(18, 22, 22);
+    border: 1px solid  white;
+    box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
+    color: white;
+    
+    
+    
+}
+
+.movie4 .text{
+    margin: 0%;
+    position: relative;
+    padding: 0;
+}
+.movie4 img{
+    height: 350px;
+}
+.movie4 img:hover{
+    transform: rotateY(-180deg);
+
+    opacity: .6;
+    transition: 0.5s;
+}
+.movie4 a:hover{
+    color: rgb(68, 221, 68);
+    transition: .6s;
+}
+.movie4 a{
+    text-decoration: none;
+    color: white;}
+.movie5{
+    float: left;
+    width: 30%;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 2%;
+    background-color: rgb(18, 22, 22);
+    border: 1px solid  white;
+    box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
+    color: white;
+    
+    
+}
+
+.movie5 .text{
+    margin: 0%;
+    position: relative;
+    padding: 0;
+}
+.movie5 img{
+    height: 350px;
+}
+.movie5 img:hover{
+    opacity: .6;
+    transform: rotateY(-180deg);
+
+    transition: 0.5s;
+}
+.movie5 a:hover{
+    color: rgb(68, 221, 68);
+    transition: .6s;
+}
+.movie5 a{
+    text-decoration: none;
+    color: white;}
+.movie6{
+    float: left;
+    width: 30%;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 2%;
+    background-color: rgb(18, 22, 22);
+    border: 1px solid  white;
+    box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
+    color: white;
+    
+    
+}
+
+.movie6 .text{
+    margin: 0%;
+    position: relative;
+    padding: 0;
+}
+.movie6 img{
+    height: 350px;
+}
+.movie6 img:hover{
+    transform: rotateY(-180deg);
+
+    opacity: .6;
+    transition: 0.5s;
+}
+.movie6 a:hover{
+    color: rgb(68, 221, 68);
+    transition: .6s;
+}
+.movie6 a{
+    text-decoration: none;
+    color: white;}
+.movie7{
+    float: left;
+    width: 30%;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 2%;
+    background-color: rgb(18, 22, 22);
+    border: 1px solid  white;
+    box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
+    color: white;
+    
+    
+}
+
+.movie7 .text{
+    margin: 0%;
+    position: relative;
+    padding: 0;
+}
+.movie7 img{
+    height: 350px;
+}
+.movie7 img:hover{
+    opacity: .6;
+    transition: 0.5s;
+        transform: rotateY(-180deg);
+
+}
+.movie7 a:hover{
+    color: rgb(68, 221, 68);
+    transition: .6s;
+}
+.movie7 a{
+    text-decoration: none;
+    color: white;}
+.movie8{
+    float: left;
+    width: 30%;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 2%;
+    background-color: rgb(18, 22, 22);
+    border: 1px solid  white;
+    box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
+    color: white;
+    
+    
+}
+
+.movie8 .text{
+    margin: 0%;
+    position: relative;
+    padding: 0;
+}
+.movie8 img{
+    height: 350px;
+}
+.movie8 img:hover{
+    opacity: .6;
+    transform: rotateY(-180deg);
+    transition: 0.5s;
+}
+.movie8 a:hover{
+    color: rgb(68, 221, 68);
+    transition: .6s;
+}
+.movie8 a{
+    text-decoration: none;
+    color: white;
+}
+.movie9{
+    float: left;
+    width: 30%;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 2%;
+    background-color: rgb(18, 22, 22);
+    border: 1px solid  white;
+    box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
+    
+    
+    
+}
+
+.movie9 .text{
+    margin: 0%;
+    position: relative;
+    padding: 0;
+}
+.movie9 img{
+    height: 350px;
+}
+.movie9 img:hover{
+    opacity: .6;
+    transition: 0.5s;
+    transform: rotateY(-180deg);
+
+}
+.movie9 a:hover{
+    color: rgb(68, 221, 68);
+    transition: .6s;
+}
+.movie9 a{
+    text-decoration: none;
+    color: white;
+}
+
+.movie10{
+    float: left;
+    width: 30%;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 2%;
+    background-color: rgb(18, 22, 22);
+    border: 1px solid  white;
+    box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
+    
+    
+    
+}
+
+.movie10 .text{
+    margin: 0%;
+    position: relative;
+    padding: 0;
+}
+.movie10 img{
+    height: 350px;
+}
+.movie10 img:hover{
+    opacity: .6;
+    transition: 0.5s;
+    transform: rotateY(-180deg);
+
+}
+.movie10 a:hover{
+    color: rgb(68, 221, 68);
+    transition: .6s;
+}
+.movie10 a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------Detail page Css star------------*/
+.detail-container{
+    width: 90%;
+    height: 900px;
+    margin-left: 5%;
+    margin-top: 50px;
+    position: relative;
+    float: left;
+    box-shadow: 2px 3px 25px gray; 
+    border-radius: 5px;
+    border-bottom: 1px solid grey;
+
+}
+.detail-container img{
+    height: 300px;
+    width: 250px;
+    margin-left: 100px;
+    margin-top: 20px;
+    position: relative;
+    float: left;
+
+}
+.detail-container img:hover{
+    transform: rotateY(-180deg);
+}
+.movie-detail{
+    float: left;
+    height: 300px;
+    width: 60%;
+    margin-top: 20px;
+    position: relative;
+    font-size: larger;
+    color: white;
+}
+.movie-detail-heading{
+    color: green;
+    text-align: center;
+}
+.movie-detail ul{
+    top: 30px;
+    
+}
+.storylinediv{
+    width: 80%;
+    float: left;
+    position: relative;
+    margin-left: 10%;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+.storylineheading{
+    color: yellow;
+}
+#downloadingnxtbtn{
+width: 100%;
+margin-top: 150px;
+text-align: center;
+float: left;
+position: relative;
+}
+#downloadingnxtbtn a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    background-color: #1410f3;
+    border-radius: 8px;
+
+}
+#downloadingnxtbtn a:hover{
+    background-color: #08067e;
+
+}
+
+
+
+.downloadingsznbtn{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    float: left;
+    position: relative;
+    }
+.downloadingsznbtn a{
+        text-decoration: none;
+        color: white;
+        padding: 10px 20px 10px 20px;
+        background-color: #1410f3;
+        border-radius: 8px;
+    
+    }
+    .downloadingsznbtn a:hover{
+        background-color: #08067e;
+    
+    }
+
+/*----------Detail page Css End------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pnumber{
+    /*margin-top: :
+    background-color: ;*/
+    width: 100%;
+  
+    text-align: center;
+    float: left;
+    margin-top: 35px;  
+    
+  
+  
+  }
+
+.pnumber a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid red;
+   
+}
+.pnumber a:hover{
+    background-color: antiquewhite;
+    color: black ;
+    border: 1px solid green;
+}
+.pnumber a .i{
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*pn1 to  pn13 css*/
+
+.pnumber #pn0{
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+}
+.pnumber #pn0:hover{
+    background-color: antiquewhite;
+}
+
+
+
+
+.pnumber #pn1{
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+}
+.pnumber #pn1:hover{
+    background-color: antiquewhite;
+}
+
+
+
+
+
+
+.pnumber #pn2{
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+}
+.pnumber #pn2:hover{
+    background-color: antiquewhite;
+}
+
+
+
+
+
+.pnumber #pn3{
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+}
+.pnumber #pn3:hover{
+    background-color: antiquewhite;
+}
+
+
+
+
+
+.pnumber #pn4{
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+}
+.pnumber #pn4:hover{
+    background-color: antiquewhite;
+}
+
+
+
+
+.pnumber #pn5{
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+}
+.pnumber #pn5:hover{
+    background-color: antiquewhite;
+}
+
+
+
+.pnumber #pn6{
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+}
+.pnumber #pn6:hover{
+    background-color: antiquewhite;
+}
+
+
+
+
+.pnumber #pn7{
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+}
+.pnumber #pn7:hover{
+    background-color: antiquewhite;
+}
+
+
+
+
+.pnumber #pn8{
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+}
+.pnumber #pn8:hover{
+    background-color: antiquewhite;
+}
+
+
+
+
+
+.pnumber #pn9{
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+}
+.pnumber #pn9:hover{
+    background-color: antiquewhite;
+}
+
+
+
+
+
+.pnumber #pn10{
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+}
+.pnumber #pn10:hover{
+    background-color: antiquewhite;
+}
+
+
+
+.pnumber #pn11{
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+}
+.pnumber #pn11:hover{
+    background-color: antiquewhite;
+}
+
+
+
+.pnumber #pn12{
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+}
+.pnumber #pn12:hover{
+    background-color: antiquewhite;
+}
+
+
+
+
+
+.pnumber #pn13{
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+}
+.pnumber #pn13:hover{
+    background-color: antiquewhite;
+}
+
+
+
+
+
+
+
+
+
+
+/*--------------Categeries start-------------*/
+
+.catgeriesdiv{
+    position: relative;
+    background-color: black;
+    height: 450px;
+    width: 100%;
+    float: left;
+    top: 20px;
+    border-top: 1px solid white;
+}
+.catgerieslinkdiv{
+    position: relative;
+    background-color: black;
+    height: 350px;
+    width: 100%;
+    float: left;
+    top: 5px;
+
+}
+.catgeriesh1{
+    bottom: 0;
+    color: #fff;
+    margin-left: 5px;
+}
+.a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 50px;
+    margin-top: 10px;  
+    float: left;
+    padding: 10px;
+
+}
+.a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 50px;
+    margin-top: 10px;  
+    float: left;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.a:hover{
+    background-color: #15c529;
+    transition: .5s;
+}
+
+
+
+/*--------------Categeries End-------------*/
+
+
+
+
+/*-----------Notediv start--------------*/
+#notediv{
+    float: left;
+    width: 96%;
+    height: 80px;
+    background-color: #1cb12e;
+    color: #fff;
+    margin-left: 2%;
+    border-radius: 8px;
+    margin-top: 5px;
+    
+}
+#notediv:hover{
+    background-color: #0e6919;
+
+}
+#notediv p{
+    padding: 5px;
+    cursor: default;
+}
+#notediv .closebar{
+    color: whitesmoke;
+    font-size: 18px;
+    z-index: 1;
+    float: right;
+    position: relative;
+    border-bottom: 1px dotted black;
+    border-left: 1px dotted black;
+    border-radius: 5px 0px 0px 0px;   
+     padding: 5px 5px 0px 8px;
+    background-color: #1cb12e;
+    top: 8px;
+  
+}
+#notediv .closebar:hover{
+    color: red;
+    background-color: #0e6919;
+    cursor: pointer;
+
+}
+/*-----------Notediv start End--------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.formdiv{
+    float: left;
+    background-color: rgb(18, 22, 22);
+    width: 40%;
+    height: 400px;
+    margin-left: 30%;
+    margin-top: 50px;
+    box-shadow: 20px 15px 12px 0px black;
+    
+}
+.formdiv h3{
+    text-align: center;
+    color: white;
+}
+.formdiv form{
+    float: left;
+    width: 100%;
+}
+.formdiv form input{
+    width: 80%;
+    margin-left: 10%;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+}
+.formdiv form textarea{
+    width: 80%;
+    margin-left: 10%;
+    height: 100px;
+    border-radius: 8px;
+
+}
+#btn{
+    background-color: rgb(2, 248, 35);
+}
+#btn:hover{
+    background-color: rgb(15, 116, 15);
+}
+.formdiv form button{
+    float: left;
+    margin-left: 40%;
+    width: 20%;
+    height: 30px;
+    background-color: rgb(2, 248, 35);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    
+}
+.formdiv form button:hover{
+    background-color: rgb(15, 116, 15);
+    transition: 0.5s;
+    cursor: pointer;
+}
+#formid{
+    transition: 1s;
+}
+
+#footer{
+    float: left;
+    background-image: linear-gradient(to right, rgb(23, 0, 128),rgb(2, 0, 128),rgb(9, 0, 128),  white );
+    color: white;
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    position: relative;
+}
+#footertext{
+ float: left;
+ width: 100%;
+
+ height: 64px;
+
+}
+#footertext .h3{
+    font-size: 32px;
+    padding: 5px;
+    padding-top: 0;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#footer .footersocial{
+    float: left;
+    margin-top: 5px;
+    border-top: 1px solid whitesmoke;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+   
+   
+    overflow: hidden;
+
+}
+
+#fa-facebook{
+color: #1877f2 ;
+}
+#fa-facebook:hover{
+        transform: rotate(360deg);
+        transition: .5s;
+       
+        cursor: pointer;
+    }
+    
+#fa-whatsapp{
+color: #4FCE5D;
+}
+#fa-whatsapp:hover{
+    transform: rotate(360deg);
+    transition: .5s;
+   
+    cursor: pointer;
+}
+
+#footer .copyrightdiv{
+    float: left;
+    width: 100%;
+   
+    margin-top: 50px;
+}
+#footer .copyrightdiv .copyrighttxt{
+    float: right;
+    margin-right: 10px;
+    font-size: 12px;
+    font-style: italic;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+.aboutpage{
+    float: left;
+    background-color: rgb(22, 21, 21);
+    width: 100%;
+    height: auto;
+    color: rgb(199, 72, 72);
+    margin-top: 10px;
+    
+    overflow: hidden;
+    position: relative;
+   text-justify: auto;
+   border-top:  1px solid white;
+   border-bottom: 1px solid white;
+
+}
+.aboutpage .aboutpagecontent{
+    width: 96%;
+    margin-left: 2%;
+    background-color: rgb(22, 21, 21);
+    text-justify: kashida;
+    color: rgb(24, 180, 24);
+}
+.aboutpage .aboutpagecontent .aboutpgh3{
+    color: rgb(14, 0, 209);
+    margin-left: 10px;
+    font: bold;
+    font-weight: 1000;
+    font-size: 22px;
+
+}
+.aboutpage  p{
+    position: relative;
+
+}
+
+
+
+
+.downloadingserver{
+    float: left;
+    width: 50%;
+    height: 600px;
+    background-image: linear-gradient(to right, rgb(23, 0, 128),rgb(2, 0, 128),rgb(9, 0, 128),  white );
+    margin-top: 15px;
+    margin-left: 25%;
+    border-radius: 80px 0 80px ;
+    
+ 
+    box-shadow: 13px 17px 10px black;
+}
+
+#downloadinglink{
+    float: left;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+   
+    margin-left: 30%;
+    margin-top: 100px;
+    box-shadow: 13px 17px 10px black;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 22px;
+    text-decoration: none;
+
+
+    
+}
+#downloadinglink:hover{
+    background-color: rgb(12, 12, 77);
+    border-radius: 50px 0 50px;
+    transition: 0.5s;
+    border-bottom: 1px solid white;
+    color: #4FCE5D
+
+}
+
+
+
+
+.downloadinglink1{
+    float: left;
+    background-color: blue;
+    color: white;
+    width: 40%;
+    text-align: center;
+    
+    margin-left: 30%;
+    
+    box-shadow: 13px 17px 10px black;
+}
+.downloadinglink1 a{
+    text-decoration: none;
+    color: white;
+    
+}
+.downloadinglink1:hover{
+    background-color: gray;
+    border-radius: 10px 0 10px;
+    transition: 0.5s;
+    border-bottom:1px solid white;
+
+}
+.downloadinglink2{
+    float: left;
+    background-color: blue;
+    color: white;
+    width: 40%;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 30%;
+    
+    box-shadow: 13px 17px 10px black;
+}
+
+.downloadinglink2 a{
+    text-decoration: none;
+    color: white;
+    
+}
+.downloadinglink2:hover{
+    background-color: gray;
+    border-radius: 10px 0 10px;
+    transition: 0.5s;
+    border-bottom:1px solid white;
+}
+.downloadinglink3{
+    float: left;
+    background-color: blue;
+    color: white;
+    width: 40%;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 30%;
+    
+    box-shadow: 13px 17px 10px black;
+}
+
+.downloadinglink3 a{
+    text-decoration: none;
+    color: white;
+    
+}
+.downloadinglink3:hover{
+    background-color: gray;
+    border-radius: 10px 0 10px;
+    transition: 0.5s;
+    border-bottom:1px solid white;
+}
+.downloadinglink4{
+    float: left;
+    background-color: blue;
+    color: white;
+    width: 40%;
+    text-align: center;
+ margin-top: 15px;
+    margin-left: 30%;
+    
+    box-shadow: 13px 17px 10px black;
+}
+
+.downloadinglink4 a{
+    text-decoration: none;
+    color: white;
+    
+}
+.downloadinglink4:hover{
+    background-color: gray;
+    border-radius: 10px 0 10px;
+    transition: 0.5s;
+    border-bottom:1px solid white;
+}
+.downloadinglink5{
+    float: left;
+    background-color: blue;
+    color: white;
+    width: 40%;
+    text-align: center;
+   margin-top: 15px;
+    margin-left: 30%;
+    
+    box-shadow: 13px 17px 10px black;
+}
+
+.downloadinglink5 a{
+    text-decoration: none;
+    color: white;
+    
+}
+.downloadinglink5:hover{
+    background-color: gray;
+    border-radius: 10px 0 10px;
+    transition: 0.5s;
+    border-bottom:1px solid white;
+}
+.downloadinglink6{
+    float: left;
+    background-color: blue;
+    color: white;
+    width: 40%;
+    text-align: center;
+  margin-top: 15px;
+    margin-left: 30%;
+    
+    box-shadow: 13px 17px 10px black;
+}
+
+.downloadinglink6 a{
+    text-decoration: none;
+    color: white;
+    
+}
+.downloadinglink6:hover{
+    background-color: gray;
+    border-radius: 10px 0 10px;
+    transition: 0.5s;
+    border-bottom:1px solid white;
+}
+.downloadinglink7{
+    float: left;
+    background-color: blue;
+    color: white;
+    width: 40%;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 30%;
+    
+    box-shadow: 13px 17px 10px black;
+}
+
+.downloadinglink7 a{
+    text-decoration: none;
+    color: white;
+    
+}
+.downloadinglink7:hover{
+    background-color: gray;
+    border-radius: 10px 0 10px;
+    transition: 0.5s;
+    border-bottom:1px solid white;
+}
+.downloadinglink8{
+    float: left;
+    background-color: blue;
+    color: white;
+    width: 40%;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 30%;
+    
+    box-shadow: 13px 17px 10px black;
+}
+
+.downloadinglink8 a{
+    text-decoration: none;
+    color: white;
+    
+}
+.downloadinglink8:hover{
+    background-color: gray;
+    border-radius: 10px 0 10px;
+    transition: 0.5s;
+    border-bottom:1px solid white;
+}
+.downloadinglink9{
+    float: left;
+    background-color: blue;
+    color: white;
+    width: 40%;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 30%;
+    
+    box-shadow: 13px 17px 10px black;
+}
+
+.downloadinglink9 a{
+    text-decoration: none;
+    color: white;
+    
+}
+.downloadinglink9:hover{
+    background-color: gray;
+    border-radius: 10px 0 10px;
+    transition: 0.5s;
+    border-bottom:1px solid white;
+}
+.downloadinglink10{
+    float: left;
+    background-color: blue;
+    color: white;
+    width: 40%;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 30%;
+    
+    box-shadow: 13px 17px 10px black;
+}
+
+.downloadinglink10 a{
+    text-decoration: none;
+    color: white;
+    
+}
+.downloadinglink10:hover{
+    background-color: gray;
+    border-radius: 10px 0 10px;
+    transition: 0.5s;
+    border-bottom:1px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------Bubble story------------------------------ */
+
+
+
+
+/*
+.bubbles{
+    position: absolute;
+   
+    z-index: 0;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+.bubble {
+    position: absolute;
+    bottom: 0;
+    background: transparent;
+    
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.2) ;
+    border-radius: 50%;
+    animation: flying 10s infinite ease-in;
+
+}
+.bubble:nth-child(1)
+{
+    height: 100px;
+    width: 100px;
+    animation-duration: 10s;
+    left: 10%;
+}
+.bubble:nth-child(2)
+{
+    height: 50px;
+    width: 50px;
+    animation-duration: 6s;
+    left: 20%;
+}
+.bubble:nth-child(3)
+{
+    height: 60px;
+    width: 60px;
+    animation-duration: 8s;
+    left: 30%;
+}
+.bubble:nth-child(4)
+{
+    height: 20px;
+    width: 20px;
+    animation-duration: 3s;
+    left: 40%;
+}
+.bubble:nth-child(5)
+{
+    height: 80px;
+    width: 80px;
+    animation-duration: 5s;
+    left: 50%;
+}
+.bubble:nth-child(6)
+{
+    height: 10px;
+    width: 10px;
+    animation-duration: 2s;
+    left: 60%;
+}
+.bubble:nth-child(7)
+{
+    height: 80px;
+    width: 80px;
+    animation-duration: 4s;
+    left: 70%;
+}
+.bubble:nth-child(8)
+{
+    height: 50px;
+    width: 50px;
+    animation-duration: 7s;
+    left: 80%;
+}
+.bubble:nth-child(9)
+{
+    height: 45px;
+    width: 45px;
+    animation-duration: 4.5s;
+    left: 90%;
+}
+.bubble:nth-child(10)
+{
+    height: 30px;
+    width: 30px;
+    animation-duration: 3.5s;
+    left: 95%;
+}
+
+
+
+
+
+
+
+
+
+
+@keyframes flying
+{
+    0%
+    {
+        bottom: -100px;
+        transform: translateX(0);
+    }
+    50%
+    {
+        
+        transform: translateX(110px);
+    }
+    100%
+    {
+        bottom: 768px;
+        transform: translateX(-300px);
+    }
+}
+
+
+.line{
+    background-color: red;
+    size: 1px ;
+    border: none;
+    
+}
+*/
+
+/*----------------------------Bubble story End------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------Detail page Css star------------*/
+
+@media only screen and (min-width: 769px)  and (max-width: 1000px) 
+{
+    
+
+
+
+    .searchbox {
+        display: none;
+       }
+
+
+
+/*------Movies Started----------*/
+
+
+.creed3{
+    float: left;
+            width: 40%;
+            height: 500px;
+            margin-top: 20px;
+            margin-left: 5%;
+    }
+        .creed3 .text{
+            margin: 0%;
+            background:transparent;
+            overflow: hidden;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+        }
+        .creed3 img{
+            height: 450px;
+        }
+ 
+
+ 
+.shazam2{
+    float: left;
+            width: 40%;
+            height: 500px;
+            margin-top: 20px;
+            margin-left: 5%;
+    }
+        .shazam2 .text{
+            margin: 0%;
+            background:transparent;
+            overflow: hidden;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+        }
+        .shazam2 img{
+            height: 450px;
+        }
+    
+.pathaan{
+    float: left;
+            width: 40%;
+            height: 500px;
+            margin-top: 20px;
+            margin-left: 5%;
+    }
+        .pathaan .text{
+            margin: 0%;
+            background:transparent;
+            overflow: hidden;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+        }
+        .pathaan img{
+            height: 450px;
+        }
+    
+.movie1{
+float: left;
+        width: 40%;
+        height: 500px;
+        margin-top: 20px;
+        margin-left: 5%;
+}
+    .movie1 .text{
+        margin: 0%;
+        background:transparent;
+        overflow: hidden;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+    }
+    .movie1 img{
+        height: 450px;
+    }
+
+    
+.movie2{
+    float: left;
+    width: 40%;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+.movie2 .text{
+    margin: 0%;
+    background:transparent;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+.movie2 img{
+    height: 450px;
+}
+
+
+.movie3{
+    float: left;
+    width: 40%;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+.movie3 .text{
+    margin: 0%;
+    background:transparent;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+.movie3 img{
+    height: 450px;
+}
+
+
+.movie4{
+    float: left;
+    width: 40%;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+.movie4 .text{
+    margin: 0%;
+    background:transparent;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+.movie4 img{
+    height: 450px;
+}
+
+
+.movie5{
+    float: left;
+    width: 40%;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+.movie5 .text{
+    margin: 0%;
+    background:transparent;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+.movie5 img{
+    height: 450px;
+}
+
+
+.movie6{
+    float: left;
+    width: 40%;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+.movie6 .text{
+    margin: 0%;
+    background:transparent;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+.movie6 img{
+    height: 450px;
+}
+
+
+.movie7{
+    float: left;
+    width: 40%;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+.movie7 .text{
+    margin: 0%;
+    background:transparent;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+.movie7 img{
+    height: 450px;
+}
+
+
+.movie8{
+    float: left;
+    width: 40%;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+.movie8 .text{
+    margin: 0%;
+    background:transparent;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+.movie8 img{
+    height: 450px;
+}
+
+
+.movie9{
+    float: left;
+    width: 40%;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+.movie9 .text{
+    margin: 0%;
+    background:transparent;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+.movie9 img{
+    height: 450px;
+}
+
+
+.movie10{
+    float: left;
+    width: 40%;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+.movie10 .text{
+    margin: 0%;
+    background:transparent;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+.movie10 img{
+    height: 450px;
+}
+
+/*-----------------Movie detail start----------*/
+.detail-container{
+    height: 1250px;
+
+
+}
+.detail-container img{
+height: 350px;
+width: 300px;
+}
+.detail-container img:hover{
+    transform: rotateY(-180deg);
+}
+.movie-detail{
+    float: left;
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+    font-size: 18px;
+    cursor: default;
+    position: relative;
+}
+.movie-detail-heading{
+    color: green;
+    text-align: center;
+}
+.movie-detail ul{
+    top: 30px;
+    
+}
+.storylinediv{
+    width: 98%;
+    margin-left: 1%;
+    cursor: default;
+}
+
+#downloadingnxtbtn{
+
+height: 30px;
+margin-top: 100px;
+position: relative;}
+}
+/*----------Detail page Css End------------*/
+
+
+
+/* On smaller screens, decrease text size 
+@media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }*/
+  
+
+
+
+@media all and (max-width: 768px)
+{
+ 
+  nav{
+    height: 50px;
+    padding: 0;
+    width: 100%;
+    margin: auto;
+    
+    /*content-align: none;*/
+    
+}
+
+
+nav .logo{
+   font-size: 25px;
+   font-weight: 200px; 
+}
+  
+nav .socialdiv{
+    border-bottom: 1px solid whitesmoke;
+    border-left: 1px solid whitesmoke;
+    border-radius: 0 0 0 15px;
+    background-image: linear-gradient(to right, rgb(23, 0, 128),rgb(2, 0, 128),white,  white );
+
+}
+    
+    
+    
+    
+    
+ 
+    .head{
+        background-color: rgb(0, 0, 0);
+        /*height: 400px;*/
+        width: 100%;
+        float: left;
+
+    }
+    .head h1{
+        background-color: white;
+        float: left;
+        width: 100%;
+        text-align: center;
+        font-size: 12pt;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+.menubardiv{
+    float: left;
+    width: 100%;
+    text-align: center;
+   /* background-color: #1935e7;*/
+   position: relative;
+}
+#fa-bars{
+ z-index: 1;
+ font-size: 40px;
+ color: whitesmoke;
+ padding: 5px;
+}
+#fa-bars:hover{
+    color: #15c529;
+    cursor: pointer;
+}
+#closebar{
+    z-index: 1;
+    font-size: 25px;
+    color: whitesmoke;
+    outline: red;
+    padding: 5px 10px 5px 0px;
+    top: 312px;
+    position: absolute;
+    background-color: #1410f3;
+    border-radius:0 50px 50px 0;
+   
+}
+#closebar:hover{
+    color: red;
+    cursor: pointer;
+    background-color: #000000;
+}
+
+
+    #mobilenav{
+        width: 40%;
+        height: 100vh;
+        z-index: 1;
+        position: fixed;
+        top: 0;
+        margin-top: 0;
+        margin-left: -100%;
+        background-color: black
+        
+       
+    }
+    #mobilenav .menuword{
+        color: whitesmoke;
+        font-size: 18px;
+        text-align: center;
+        position: absolute;
+    }
+    #mobilenav #menuitems{
+background-color: black;
+height: 100%;
+width: 100%;
+float: left;
+
+    }
+    #mobilenav #menuitems a{
+        display: flex;
+        left: 10%;
+        width: 80%;
+        padding-top: 15px;
+        position: relative;
+        border: none;
+    }
+    #mobilenav #menuitems a:hover{
+        color: green;
+        transition: 0.5s;
+        border-bottom: 1px solid green;
+        background-color: white;
+        border-left: none;
+    
+    }
+    /*
+    #mobilenav #menuitems{
+        position: relative;
+        width: 90%;
+        background-color: #15c529;
+       z-index: 1;
+       float: left;
+       margin-left: 6%;
+    border: none;
+        top: 50px;
+        margin: auto;
+    }
+    #mobilenav #menuitems a{
+        position: relative;
+        padding: 8px;
+        color: white;
+        text-decoration: none;
+        display: flex;
+        
+    }
+    #mobilenav #menuitems a:hover{
+        color: green;
+        transition: 0.5s;
+        border-bottom: 1px solid whitesmoke;
+        border-left: 1px solid whitesmoke;
+    
+    }*/
+        .searchbox {
+      display: none;
+     }
+   
+    .blank{
+        width: 100%;
+        height: 30px;
+        background-color: rgb(170, 46, 46);
+        float: left;
+    
+    }
+    .blank marquee{
+        color: yellow;
+    }
+    .line{
+        float: left;
+        background-color: black;
+        width: 100%;
+        height: 5px;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+/*-------------HMC home page-----------------*/
+
+
+
+.webseries{
+    width: 90%;
+    margin-left: 5%;
+    
+}
+.webseries:hover {
+    height: 600px;
+}
+.webseries:hover img{
+    height: 520px;
+}
+
+.hollywoodmovies{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.hollywoodmovies:hover {
+    height: 600px;
+}
+.hollywoodmovies:hover img{
+    height: 520px;
+}
+.bollywoodmovies{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.bollywoodmovies:hover {
+    height: 600px;
+}
+.bollywoodmovies:hover img{
+    height: 520px;
+}
+.pakistanimovies{
+    width: 90%;
+    margin-left: 5%;
+    
+}
+
+.pakistanimovies:hover {
+    height: 600px;
+}
+.pakistanimovies:hover img{
+    height: 520px;
+}
+.southindianmovies{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.southindianmovies:hover {
+    height: 600px;
+}
+.southindianmovies:hover img{
+    height: 520px;
+}
+
+/*-------------HMC home page End-----------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=========Movies started===========*/
+
+    .movies{
+        float: left;
+        
+        width: 100%;
+        height: 45px;
+        margin-top: 20px;
+        
+    }
+    .movies h2 {
+        margin-left: 10px;
+        
+    }
+
+
+
+
+    
+
+
+
+
+    .creed3{
+        float: left;
+        width: 40%;
+        height: 300px;
+        margin-top: 10px;
+        margin-left: 10%;
+        background-color: rgb(18, 22, 22);
+        border: 1px solid  white;
+        box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
+        font-size: small;
+        
+        
+    }
+    .creed3 img{
+        height: 250px;
+    }
+    .creed3:hover{
+      
+        transition: 0.5s;
+    }
+    .creed3 a{
+        text-decoration: none;
+        color: white;
+        
+    }
+
+
+
+
+
+
+
+    .shazam2{
+        float: left;
+        width: 40%;
+        height: 300px;
+        margin-top: 10px;
+        margin-left: 10%;
+        background-color: rgb(18, 22, 22);
+        border: 1px solid  white;
+        box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
+        font-size: small;
+        
+        
+    }
+    .shazam2 img{
+        height: 250px;
+    }
+    .shazam2:hover{
+      
+        transition: 0.5s;
+    }
+    .shazam2 a{
+        text-decoration: none;
+        color: white;
+        
+    }
+
+
+
+
+
+    .pathaan{
+        float: left;
+        width: 40%;
+        height: 300px;
+        margin-top: 10px;
+        margin-left: 5%;
+        background-color: rgb(18, 22, 22);
+        border: 1px solid  white;
+        box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
+        font-size: small;
+        
+        
+    }
+    .pathaan img{
+        height: 250px;
+    }
+    .pathaan:hover{
+      
+        transition: 0.5s;
+    }
+    .pathaan a{
+        text-decoration: none;
+        color: white;
+        
+    }
+
+
+
+
+
+    .movie1{
+        float: left;
+        width: 40%;
+        height: 300px;
+        margin-top: 10px;
+        margin-left: 10%;
+        background-color: rgb(18, 22, 22);
+        border: 1px solid  white;
+        box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
+        font-size: small;
+        
+        
+    }
+    .movie1 img{
+        height: 250px;
+    }
+    .movie1:hover{
+      
+        transition: 0.5s;
+    }
+    .movie1 a{
+        text-decoration: none;
+        color: white;
+        
+    }
+    .movie2{
+        float: left;
+        width: 40%;
+        height: 300px;
+        margin-top: 10px;
+        margin-left: 5%;
+        background-color: rgb(18, 22, 22);
+        border: 1px solid  white;
+        box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
+        color: white;
+        font-size: small;
+    
+    }
+    .movie2 img{
+        height: 250px;
+    }
+    .movie2:hover{
+       
+        transition: 0.5s;
+    }
+    .movie2 a{
+        text-decoration: none;
+        color: white;
+    }
+    .movie3{
+        float: left;
+        width: 40%;
+        height: 300px;
+        margin-top: 20px;
+        margin-left: 10%;
+        background-color: rgb(18, 22, 22);
+        border: 1px solid  white;
+        box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
+        color: white;
+        font-size: small;
+    
+    }
+    .movie3 img{
+        height: 250px;
+    }
+    .movie3:hover{
+       
+        transition: 0.5s;
+    }
+    .movie3 a{
+        text-decoration: none;
+        color: white;}
+    .movie4{
+        float: left;
+        width: 40%;
+        height: 300px;
+        margin-top: 20px;
+        margin-left: 5%;
+        background-color: rgb(18, 22, 22);
+        border: 1px solid  white;
+        box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
+        color: white;
+        font-size: small;
+        
+        
+        
+    }
+    .movie4 img{
+        height: 250px;
+    }
+    .movie4:hover{
+        background-color: gray;   
+             transition: 0.5s;
+    }
+    .movie4 a{
+        text-decoration: none;
+        color: white;}
+    .movie5{
+        float: left;
+        width: 40%;
+        height: 300px;
+        margin-top: 20px;
+        margin-left: 10%;
+        background-color: rgb(18, 22, 22);
+        border: 1px solid  white;
+        box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
+        color: white;
+        font-size: small;
+    }
+    .movie5 img{
+        height: 250px;
+    }
+    .movie5:hover{
+        transition: 0.5s;
+    }
+    .movie5 a{
+        text-decoration: none;
+        color: white;}
+    .movie6{
+        float: left;
+        width: 40%;
+        height: 300px;
+        margin-top: 20px;
+        margin-left: 5%;
+        background-color: rgb(18, 22, 22);
+        border: 1px solid  white;
+        box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
+        color: white;
+        font-size: small;
+    }
+    .movie6 img{
+        height: 250px;
+    }
+    .movie6:hover{
+        transition: 0.5s;
+    }
+    .movie6 a{
+        text-decoration: none;
+        color: white;}
+    .movie7{
+        float: left;
+        width: 40%;
+        height: 300px;
+        margin-top: 20px;
+        margin-left: 10%;
+        background-color: rgb(18, 22, 22);
+        border: 1px solid  white;
+        box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
+        color: white;
+        font-size: small;
+    }
+    .movie7 img{
+        height: 250px;
+    }
+    .movie7:hover{
+        
+        transition: 0.5s;
+    }
+    .movie7 a{
+        text-decoration: none;
+        color: white;}
+    .movie8{
+        float: left;
+        width: 40%;
+        height: 300px;
+        margin-top: 20px;
+        margin-left: 5%;
+        background-color: rgb(18, 22, 22);
+        border: 1px solid  white;
+        box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
+        color: white;
+        font-size: small;
+    }
+    .movie8 img{
+        height: 250px;
+    }
+    .movie8:hover{
+    
+        transition: 0.5s;
+    }
+    .movie8 a{
+        text-decoration: none;
+        color: white;
+    }
+    .movie9{
+        float: left;
+        width: 40%;
+        height: 300px;
+        margin-top: 20px;
+        margin-left: 10%;
+        background-color: rgb(18, 22, 22);
+        border: 1px solid  white;
+        box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
+        color: white;
+        font-size: small;
+        
+    }
+    .movie9 img{
+        height: 250px;
+    }
+    .movie9:hover{
+        background-color: gray;
+        transition: 0.5s;
+        color: black;
+    }
+    .movie9 a{
+        text-decoration: none;
+        color: white;
+    }
+    
+     .movie10{
+        float: left;
+        width: 40%;
+        height: 300px;
+        margin-top: 20px;
+        margin-left: 5%;
+        background-color: rgb(18, 22, 22);
+        border: 1px solid  white;
+        box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
+        color: white;
+        font-size: small;
+        
+    }
+    .movie10 img{
+        height: 250px;
+    }
+    .movie10:hover{
+       
+        transition: 0.5s;
+        color: black;
+    }
+    .movie10 a{
+        text-decoration: none;
+        color: white;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------Detail page Css star------------*/
+
+.menuitems {
+    margin-top: 50px;
+    float: left;
+    position: relative;
+}
+.detail-container{
+    height: 1250px;
+}
+.detail-container img{
+    display: block;
+}
+.detail-container img:hover{
+    transform: rotateY(-180deg);
+}
+.movie-detail{
+    float: left;
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+    font-size: 18px;
+    cursor: default;
+}
+.movie-detail-heading{
+    color: green;
+    text-align: center;
+}
+.movie-detail ul{
+    top: 30px;
+    
+}
+.storylinediv{
+    width: 98%;
+    margin-left: 1%;
+    cursor: default;
+    position: relative;
+}
+
+#downloadingnxtbtn{
+
+height: 30px;
+margin-top: 100px;
+position: relative;
+}
+/*----------Detail page Css End------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+   
+  .pnumber{
+    position: relative;
+  }
+    
+
+
+  #notediv{
+    height: 100px;
+  }
+        
+    }
+    .formdiv{
+        float: left;
+        background-image: linear-gradient(to right, rgb(23, 0, 128),rgb(2, 0, 128),rgb(2, 0, 128),  white );
+
+        width: 70%;
+        height: 400px;
+        margin-left: 15%;
+        margin-top: 50px;
+        box-shadow: 20px 15px 12px 0px black;
+        
+    }
+    .formdiv h3{
+        text-align: center;
+        color: white;
+        text-shadow: black 2px 5px 6px;
+    }
+    .formdiv form{
+        float: left;
+        width: 100%;
+    }
+    .formdiv form input{
+        width: 80%;
+        margin-left: 10%;
+        height: 30px;
+        border: none;
+        border-radius: 8px;
+    }
+    .formdiv form textarea{
+        width: 80%;
+        margin-left: 10%;
+        height: 100px;
+        border-radius: 8px;
+    
+    }
+    .formdiv form button{
+        float: left;
+        margin-left: 40%;
+        width: 20%;
+        height: 30px;
+        background-color: black;
+        color: white;
+        border-radius: 8px;
+        border: none;
+        
+    }
+    .formdiv form button:hover{
+        background-color: gray;
+        transition: 0.5s;
+    }
+    
+    
+    .footer{
+        float: left;
+        background-color: rgb(18, 22, 22);
+        color: white;
+        width: 100%;
+        height: 80px;
+        margin-top: 50px;
+    }
+    .footertext{
+        background-color: rgb(18, 22, 22);
+        float: left;
+        width: 60%;
+        text-align: center;
+        margin-left: 20%;
+        font-size: x-small;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .aboutpage{
+        float: left;
+        background-color: rgb(22, 21, 21);
+        width: 100%;
+        height: auto;
+        color: rgb(199, 72, 72);
+        margin-top: 10px;
+    
+    }
+    .aboutpage h3{
+        color: red;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    .downloadingserver{
+        float: left;
+        width: 90%;
+        height: 500px;
+        background-color: rgb(18, 22, 22);
+        margin-top: 15px;
+        margin-left: 5%;
+        border-radius: 80px 0 80px ;
+        color: white;
+        text-align: center;
+        box-shadow: 13px 17px 10px black;
+        border-left: 1px solid white;
+
+    }
+   
+    .downloadingserver #downloadinglink{
+        float: left;
+        background-color: blue;
+        color: white;
+        width: 40%;
+        text-align: center;
+        height: 30px;
+        margin-left: 30%;
+        margin-top: 100px;
+        box-shadow: 13px 17px 10px black;
+        font-size: 15px;
+    }
+    
+   
+ .catgeriesdiv{
+    position: relative;
+    overflow: hidden;
+ }
+   .catgerieslinkdiv{
+    position: relative;
+   } 
+   .catgerieslinkdiv .a{
+    margin-left: 20px;
+    padding: 5px;
+    margin-top: 5px;
+   }
+
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
