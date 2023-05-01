@@ -2536,7 +2536,6 @@ color: #4FCE5D;
 
 .detail-container{
     width: 92%;
-    height: auto; 
     margin-left: 4%;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -2548,6 +2547,9 @@ color: #4FCE5D;
     margin-top: 20px;
     position: relative;
     float: left;
+}
+#downloadingnxtbtn{
+    margin-top: 20px;
 }
 }
 
