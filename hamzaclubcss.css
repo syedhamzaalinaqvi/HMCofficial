@@ -2535,8 +2535,11 @@ color: #4FCE5D;
         
 
 .detail-container{
-    width: 92%; 
+    width: 92%;
+    height: auto; 
     margin-left: 4%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
     .detail-container img {
     height: 300px;
