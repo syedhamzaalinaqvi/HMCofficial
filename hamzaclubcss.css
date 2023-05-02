@@ -2539,7 +2539,7 @@ color: #4FCE5D;
     margin-left: 4%;
     margin-top: 20px;
     margin-bottom: 20px;
-    overflow: hidden;
+    overflow: scroll;
 }
     .detail-container img {
     height: 300px;
