@@ -1255,6 +1255,14 @@ position: relative;
     float: left;
     position: relative;
     }
+.comingsoon a{
+    background-color:grey;
+
+}
+.comingsoon a:hover{
+    background-color:rgb(78, 76, 76);
+
+}
 .downloadingsznbtn a{
         text-decoration: none;
         color: white;
@@ -1327,6 +1335,9 @@ position: relative;
 
 
 
+
+/*----------pagination css start--------*/
+
 .pnumber{
     /*margin-top: :
     background-color: ;*/
@@ -1367,9 +1378,6 @@ position: relative;
 
 
 
-
-
-/*pn1 to  pn13 css*/
 
 .pnumber #pn0{
     background-color: white;
@@ -1539,6 +1547,8 @@ position: relative;
 .pnumber #pn13:hover{
     background-color: antiquewhite;
 }
+
+/*----------pagination css end--------*/
 
 
 
