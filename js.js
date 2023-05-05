@@ -5,7 +5,7 @@ document.getElementById("noteclose").addEventListener("click", function (){
   });
   document.getElementById("fa-bars").addEventListener("click", function(){ 
     document.getElementById("mobilenav").style.marginLeft="0%"
-    document.getElementById("mobilenav").style.transition="0.5s%"
+    document.getElementById("mobilenav").style.transition="1.5s%"
   
   })
     
