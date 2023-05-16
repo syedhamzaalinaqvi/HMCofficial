@@ -38,15 +38,36 @@
           
           
     <div class="h1"> <h1> HAMZAMOVIESCLUB</h1></div>
-    <div class="menuitems"> 
-        <a href="index.html" class="home">  Home </a>
-        <a href="about.html" class="about" target="_blank"> About Us </a>
-        <a href="about.html" class="privacy" target="_blank"> Privacy </a>
-    </div>
     <div class="searchbox"><button>Search <input type="search"  name="search" placeholder="search here"> </button></div>
     
 </div>
-</div>
+<br>
+
+<div class="mobilenav" id="mobilenav">
+  <div class="menuitems" id="menuitems"> 
+        <a href="index.html" class="home">  Home </a>
+        <a href="all_webseries.html" class="home">  Web Series </a>
+        <a href="all_hollywoodmovies.html" class="home">  Dual audio </a>
+        <a href="index.html" class="home">  bollywood </a>
+        <a href="all_hollywoodmovies.html" class="home">  English </a>
+        <a href="index.html" class="home">  Horror</a>
+        <a href="index.html" class="home">  Pakistani </a>
+        <a href="#formid" class="contact"> Contact Us </a>
+        <a href="about.html" class="about" target="_blank"> About Us </a>
+        <a href="about.html" class="privacy" target="_blank"> Privacy </a>
+    </div>
+    <i class="fa-solid fa-xmark closebar" id="closebar" ></i>
+
+  </div> 
+  
+  
+ <div class="menubardiv">
+  <i class="fa-solid fa-bars" id="fa-bars" ></i>
+ </div>
+
+      <br>
+
+
 
 
 
@@ -115,6 +136,25 @@
       </div>
   
    
+      <script>
+
+        
+/*----------------------Movile Nav----------------------------------------------*/
+
+ 
+  document.getElementById("fa-bars").addEventListener("click", function(){ 
+    document.getElementById("mobilenav").style.marginLeft="0%"
+    document.getElementById("mobilenav").style.transition="0.5s%"
+  
+  })
+    
+  document.getElementById("closebar").addEventListener("click", function(){
+    document.getElementById("mobilenav").style.marginLeft ="-100%"
+    document.getElementById("mobilenav").style.transition ="1.5s"
+  
+  });
+  /*--Movile Nav End*/
+      </script>
 
 </body>
 </html>

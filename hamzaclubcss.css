@@ -888,7 +888,7 @@ position: relative;
     background-color: black;
     padding: 10px;
     border-radius: 3px;
-    border: 1px solid red;
+    border: 1px solid blue;
    
 }
 .pnumber a:hover{
@@ -1407,12 +1407,14 @@ color: #4FCE5D;
     margin-top: 15px;
     margin-left: 25%;
     border-radius: 10px 0 10px ;
-    
- 
+    position: relative;
     box-shadow: 13px 17px 10px black;
 }
 .downloadingserver p{
-
+text-align: center;
+color: #15c529;
+text-shadow: 2px 2px 6px black;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #downloadinglink{
     float: left;
@@ -1446,6 +1448,7 @@ color: #4FCE5D;
 
 .downloadinglink1{
     float: left;
+    
     background-color: blue;
     color: white;
     width: 40%;
@@ -1972,82 +1975,20 @@ color: #4FCE5D;
 
 
 
-
-
-/*--------------------for smart phone----------*/
-
-@media only screen and (min-width: 320px)  and (max-width: 767px) 
-{
-    .menuitems{
-        display: flex;
-        flex-direction: column;
-    }
- .testingdiv{
-    display: none;
- }
- .testingdiv2{
-    display: none;
- }
-    .line{
-        float: left;
-        background-color: black;
-        width: 100%;
-        height: 4px;
-        margin-top: 10px;
-        
-    }
-
-.movie1 {
-        
-        width: 47%;
-        height: 310px;
-        margin-left: 2%;
-        overflow: hidden;
-    }
-    .movie2 {
-        
-        width: 47%;
-        height: 310px;
-        margin-left: 2%;
-        overflow: hidden;
-    }
-        
-
-.detail-container{
-    width: 92%;
-    margin-left: 4%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    overflow: scroll;
-}
-    .detail-container img {
-    height: 300px;
-    width: 230px;
-    margin-left: 40px;
-    margin-top: 20px;
-    position: relative;
-    float: left;
-}
-#downloadingnxtbtn{
-    margin-top: 20px;
-}
-}
-
-
-
-
-
-
-
-
-/*----------Detail page Css star------------*/
 /*----------Tablet------------*/
 
 @media only screen and (min-width: 769px)  and (max-width: 1000px) 
 {
     
-
-
+    .menuitems{
+        height: auto;
+    }
+    .menuitems a{
+        padding: 5px;
+    }
+    .testingdiv2 .section{
+        padding: 10px 20px 10px 20px;
+    }
 
     .searchbox {
         display: none;
@@ -2157,8 +2098,76 @@ position: relative;}
 
 
 
-@media all and (max-width: 768px)
-{
+/*--------------------for smart phone----------*/
+
+@media only screen and (min-width: 320px)  and (max-width: 767px) 
+{ 
+        .searchbox{
+        display: none;
+    }
+    .menuitems{
+        display: flex;
+        flex-direction: column;
+       
+    }
+ .testingdiv{
+    display: none;
+ }
+ .testingdiv2{
+    display: none;
+ }
+    .line{
+        float: left;
+        background-color: black;
+        width: 100%;
+        height: 4px;
+        margin-top: 10px;
+        
+    }
+
+.movie1 {
+        
+        width: 47%;
+        height: 310px;
+        margin-left: 2%;
+        overflow: hidden;
+    }
+    .movie2 {
+        
+        width: 47%;
+        height: 310px;
+        margin-left: 2%;
+        overflow: hidden;
+    }
+        
+
+.detail-container{
+    width: 92%;
+    margin-left: 4%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: scroll;
+}
+    .detail-container img {
+    height: 300px;
+    width: 230px;
+    margin-left: 40px;
+    margin-top: 20px;
+    position: relative;
+    float: left;
+}
+#downloadingnxtbtn{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
  
   nav{
     height: 50px;
@@ -2254,7 +2263,7 @@ nav .socialdiv{
     #mobilenav{
         width: 40%;
         height: 100vh;
-        z-index: 1;
+        z-index: 11;
         position: fixed;
         top: 0;
         margin-top: 0;
@@ -2503,193 +2512,6 @@ float: left;
         text-decoration: none;
         color: white;
     }
-    .movie3{
-        float: left;
-        width: 40%;
-        height: 300px;
-        margin-top: 20px;
-        margin-left: 10%;
-        background-color: rgb(18, 22, 22);
-        border: 1px solid  white;
-        box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
-        color: white;
-        font-size: small;
-    
-    }
-    .movie3 img{
-        height: 250px;
-    }
-    .movie3:hover{
-       
-        transition: 0.5s;
-    }
-    .movie3 a{
-        text-decoration: none;
-        color: white;}
-    .movie4{
-        float: left;
-        width: 40%;
-        height: 300px;
-        margin-top: 20px;
-        margin-left: 5%;
-        background-color: rgb(18, 22, 22);
-        border: 1px solid  white;
-        box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
-        color: white;
-        font-size: small;
-        
-        
-        
-    }
-    .movie4 img{
-        height: 250px;
-    }
-    .movie4:hover{
-        background-color: gray;   
-             transition: 0.5s;
-    }
-    .movie4 a{
-        text-decoration: none;
-        color: white;}
-    .movie5{
-        float: left;
-        width: 40%;
-        height: 300px;
-        margin-top: 20px;
-        margin-left: 10%;
-        background-color: rgb(18, 22, 22);
-        border: 1px solid  white;
-        box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
-        color: white;
-        font-size: small;
-    }
-    .movie5 img{
-        height: 250px;
-    }
-    .movie5:hover{
-        transition: 0.5s;
-    }
-    .movie5 a{
-        text-decoration: none;
-        color: white;}
-    .movie6{
-        float: left;
-        width: 40%;
-        height: 300px;
-        margin-top: 20px;
-        margin-left: 5%;
-        background-color: rgb(18, 22, 22);
-        border: 1px solid  white;
-        box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
-        color: white;
-        font-size: small;
-    }
-    .movie6 img{
-        height: 250px;
-    }
-    .movie6:hover{
-        transition: 0.5s;
-    }
-    .movie6 a{
-        text-decoration: none;
-        color: white;}
-    .movie7{
-        float: left;
-        width: 40%;
-        height: 300px;
-        margin-top: 20px;
-        margin-left: 10%;
-        background-color: rgb(18, 22, 22);
-        border: 1px solid  white;
-        box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
-        color: white;
-        font-size: small;
-    }
-    .movie7 img{
-        height: 250px;
-    }
-    .movie7:hover{
-        
-        transition: 0.5s;
-    }
-    .movie7 a{
-        text-decoration: none;
-        color: white;}
-    .movie8{
-        float: left;
-        width: 40%;
-        height: 300px;
-        margin-top: 20px;
-        margin-left: 5%;
-        background-color: rgb(18, 22, 22);
-        border: 1px solid  white;
-        box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
-        color: white;
-        font-size: small;
-    }
-    .movie8 img{
-        height: 250px;
-    }
-    .movie8:hover{
-    
-        transition: 0.5s;
-    }
-    .movie8 a{
-        text-decoration: none;
-        color: white;
-    }
-    .movie9{
-        float: left;
-        width: 40%;
-        height: 300px;
-        margin-top: 20px;
-        margin-left: 10%;
-        background-color: rgb(18, 22, 22);
-        border: 1px solid  white;
-        box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
-        color: white;
-        font-size: small;
-        
-    }
-    .movie9 img{
-        height: 250px;
-    }
-    .movie9:hover{
-        background-color: gray;
-        transition: 0.5s;
-        color: black;
-    }
-    .movie9 a{
-        text-decoration: none;
-        color: white;
-    }
-    
-     .movie10{
-        float: left;
-        width: 40%;
-        height: 300px;
-        margin-top: 20px;
-        margin-left: 5%;
-        background-color: rgb(18, 22, 22);
-        border: 1px solid  white;
-        box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
-        color: white;
-        font-size: small;
-        
-    }
-    .movie10 img{
-        height: 250px;
-    }
-    .movie10:hover{
-       
-        transition: 0.5s;
-        color: black;
-    }
-    .movie10 a{
-        text-decoration: none;
-        color: white;
-    }
-    
 
 
 
@@ -2703,14 +2525,9 @@ float: left;
 
 
 
+/*----------Detail page Css start------------*/
 
-/*----------Detail page Css star------------*/
 
-.menuitems {
-    margin-top: 50px;
-    float: left;
-    position: relative;
-}
 .detail-container{
     height: 1250px;
 }
@@ -2752,59 +2569,49 @@ position: relative;
 }
 /*----------Detail page Css End------------*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+ 
    
   .pnumber{
     position: relative;
   }
     
+/*--Categery css start--*/
+ .catgeriesdiv{
+    position: relative;
+    overflow: hidden;
+ }
+   .catgerieslinkdiv{
+    position: relative;
+   } 
+   .catgerieslinkdiv .a{
+    margin-left: 20px;
+    padding: 5px;
+    margin-top: 5px;
+   }
 
+  .catgeriesdiv{
+    position: relative;
+    overflow: hidden;
+ }
+   .catgerieslinkdiv{
+    position: relative;
+   } 
+   .catgerieslinkdiv .a{
+    margin-left: 20px;
+    padding: 5px;
+    margin-top: 5px;
+   }
 
+/*--Categery css end--*/
   #notediv{
-    height: 100px;
+    height: auto;
   }
-        
-    }
+
+
+
+
+        /*--Form css start--*/
+
     .formdiv{
         float: left;
         background-image: linear-gradient(to right, rgb(23, 0, 128),rgb(2, 0, 128),rgb(2, 0, 128),  white );
@@ -2853,9 +2660,12 @@ position: relative;
     .formdiv form button:hover{
         background-color: gray;
         transition: 0.5s;
-    }
+    }        
     
+    /*--Form css End--*/
+
     
+    /*--------Footer Css start------------*/
     .footer{
         float: left;
         background-color: rgb(18, 22, 22);
@@ -2875,11 +2685,13 @@ position: relative;
     
     
     
+/*--------Footer Css end------------*/
     
     
     
     
     
+/*--------About Css start------------*/
     
     
     .aboutpage{
@@ -2896,7 +2708,8 @@ position: relative;
     
     }
     
-    
+    /*--------about Css end-----------*/
+
     
     
     
@@ -2908,7 +2721,8 @@ position: relative;
     
     
     
-    
+    /*--------downloading page Css start------------*/
+
     
     
     .downloadingserver{
@@ -2939,95 +2753,12 @@ position: relative;
         font-size: 15px;
     }
     
-   
- .catgeriesdiv{
-    position: relative;
-    overflow: hidden;
- }
-   .catgerieslinkdiv{
-    position: relative;
-   } 
-   .catgerieslinkdiv .a{
-    margin-left: 20px;
-    padding: 5px;
-    margin-top: 5px;
-   }
+   /*--------Downloading pages Css end------------*/
 
+}
 
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
     .text {font-size: 11px}
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
