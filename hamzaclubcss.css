@@ -5,8 +5,39 @@ body{
      box-sizing: border-box;
      width: 100%;
 }
+.testingdiv{
+    width: 100%;
+    height: 30px;
 
+    text-align: center;
+}.testingdiv h3{
+    font-size: 30px;
+    color: #fff;
+}
+.testingdiv2{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}.testingdiv2 .section{
+    padding: 15px 35px 15px 35px;
+    border: 2px solid blue;
+    border-radius: 0px 0px 20px 20px ;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 5px;
+    box-shadow: 3px 5px 17px 3px green;
+    outline:  2px solid green;
+    transition: .5s;
+}.testingdiv2 .section:hover{
+    background-color: whitesmoke;
+    color: black;
+}
 #nav{
+    top: 0;
     width: 100%;
     height: 30px;
     background-image: linear-gradient(to right, rgb(23, 0, 128),rgb(2, 0, 128),rgb(9, 0, 128),  white );
@@ -222,10 +253,9 @@ position: relative;
     float: left;
     width: 100%;
     height: 40px;
-    display: block;
+    display: flex;
     margin-top: 30px;
-  
-    background-color: black;
+     justify-content: center;
     border-bottom: 1px solid whitesmoke ;
 }
  .menuitems a{
@@ -235,7 +265,6 @@ position: relative;
     text-decoration: none;
     font-size: 18px;
     border-right: 1px solid whitesmoke;
-    float: left;
    
 }
  .menuitems a:hover{
@@ -639,138 +668,6 @@ border: none;
 
 /*---------Movies started---------*/
 
-.creed3{
-    float: left;
-    width: 30%;
-    height: 400px;
-    margin-top: 10px;
-    margin-left: 2%;
-    background-color: rgb(18, 22, 22);
-    border: 1px solid  white;
-    box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
-    
-    
-    
-}
-.creed3 .text{
-    margin: 0%;
-    position: relative;
-    padding: 0;
-}
-.creed3 img{
-    height: 350px;
-}
-.creed3 img:hover{
-    opacity: .6;
-    transition: 0.5s;
-        transform: rotateY(-180deg);
-
-}
-.creed3 a:hover{
-    color: rgb(68, 221, 68);
-    transition: .6s;
-}
-.creed3 a{
-    text-decoration: none;
-      color: white;
-}
-
-
-
-
-
-.shazam2{
-    float: left;
-    width: 30%;
-    height: 400px;
-    margin-top: 10px;
-    margin-left: 2%;
-    background-color: rgb(18, 22, 22);
-    border: 1px solid  white;
-    box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
-    
-    
-    
-}
-.shazam2 .text{
-    margin: 0%;
-    position: relative;
-    padding: 0;
-}
-.shazam2 img{
-    height: 350px;
-}
-.shazam2 img:hover{
-    opacity: .6;
-    transition: 0.5s;
-        transform: rotateY(-180deg);
-
-}
-.shazam2 a:hover{
-    color: rgb(68, 221, 68);
-    transition: .6s;
-}
-.shazam2 a{
-    text-decoration: none;
-      color: white;
-}
-
-
-.pathaan{
-    float: left;
-    width: 30%;
-    height: 400px;
-    margin-top: 10px;
-    margin-left: 2%;
-    background-color: rgb(18, 22, 22);
-    border: 1px solid  white;
-    box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
-    
-    
-    
-}
-.pathaan.text{
-    
-}
-.pathaan img{
-    height: 345px;
-}
-.pathaan img:hover{
-    opacity: .6;
-    transition: 0.5s;
-        transform: rotateY(-180deg);
-
-}
-.pathaan a:hover{
-    color: rgb(68, 221, 68);
-    transition: .6s;
-}
-.pathaan a{
-    text-decoration: none;
-      color: white;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .movie1{
@@ -846,319 +743,6 @@ border: none;
     text-decoration: none;
     color: white;
 }
-.movie3{
-    float: left;
-    width: 30%;
-    height: 400px;
-    margin-top: 10px;
-    margin-left: 2%;
-    background-color: rgb(18, 22, 22);
-    border: 1px solid  white;
-    box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
-    color: white;
-
-}
-
-.movie3 .text{
-    margin: 0%;
-    position: relative;
-    padding: 0;
-}
-.movie3 img{
-    height: 350px;
-}
-.movie3 img:hover{
-    opacity: .6;
-    transition: 0.5s;
-    transform: rotateY(-180deg);
-
-}
-.movie3 a:hover{
-    color: rgb(68, 221, 68);
-    transition: .6s;
-}
-.movie3 a{
-    text-decoration: none;
-    color: white;}
-.movie4{
-    float: left;
-    width: 30%;
-    height: 400px;
-    margin-top: 20px;
-    margin-left: 2%;
-    background-color: rgb(18, 22, 22);
-    border: 1px solid  white;
-    box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
-    color: white;
-    
-    
-    
-}
-
-.movie4 .text{
-    margin: 0%;
-    position: relative;
-    padding: 0;
-}
-.movie4 img{
-    height: 350px;
-}
-.movie4 img:hover{
-    transform: rotateY(-180deg);
-
-    opacity: .6;
-    transition: 0.5s;
-}
-.movie4 a:hover{
-    color: rgb(68, 221, 68);
-    transition: .6s;
-}
-.movie4 a{
-    text-decoration: none;
-    color: white;}
-.movie5{
-    float: left;
-    width: 30%;
-    height: 400px;
-    margin-top: 20px;
-    margin-left: 2%;
-    background-color: rgb(18, 22, 22);
-    border: 1px solid  white;
-    box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
-    color: white;
-    
-    
-}
-
-.movie5 .text{
-    margin: 0%;
-    position: relative;
-    padding: 0;
-}
-.movie5 img{
-    height: 350px;
-}
-.movie5 img:hover{
-    opacity: .6;
-    transform: rotateY(-180deg);
-
-    transition: 0.5s;
-}
-.movie5 a:hover{
-    color: rgb(68, 221, 68);
-    transition: .6s;
-}
-.movie5 a{
-    text-decoration: none;
-    color: white;}
-.movie6{
-    float: left;
-    width: 30%;
-    height: 400px;
-    margin-top: 20px;
-    margin-left: 2%;
-    background-color: rgb(18, 22, 22);
-    border: 1px solid  white;
-    box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
-    color: white;
-    
-    
-}
-
-.movie6 .text{
-    margin: 0%;
-    position: relative;
-    padding: 0;
-}
-.movie6 img{
-    height: 350px;
-}
-.movie6 img:hover{
-    transform: rotateY(-180deg);
-
-    opacity: .6;
-    transition: 0.5s;
-}
-.movie6 a:hover{
-    color: rgb(68, 221, 68);
-    transition: .6s;
-}
-.movie6 a{
-    text-decoration: none;
-    color: white;}
-.movie7{
-    float: left;
-    width: 30%;
-    height: 400px;
-    margin-top: 20px;
-    margin-left: 2%;
-    background-color: rgb(18, 22, 22);
-    border: 1px solid  white;
-    box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
-    color: white;
-    
-    
-}
-
-.movie7 .text{
-    margin: 0%;
-    position: relative;
-    padding: 0;
-}
-.movie7 img{
-    height: 350px;
-}
-.movie7 img:hover{
-    opacity: .6;
-    transition: 0.5s;
-        transform: rotateY(-180deg);
-
-}
-.movie7 a:hover{
-    color: rgb(68, 221, 68);
-    transition: .6s;
-}
-.movie7 a{
-    text-decoration: none;
-    color: white;}
-.movie8{
-    float: left;
-    width: 30%;
-    height: 400px;
-    margin-top: 20px;
-    margin-left: 2%;
-    background-color: rgb(18, 22, 22);
-    border: 1px solid  white;
-    box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
-    color: white;
-    
-    
-}
-
-.movie8 .text{
-    margin: 0%;
-    position: relative;
-    padding: 0;
-}
-.movie8 img{
-    height: 350px;
-}
-.movie8 img:hover{
-    opacity: .6;
-    transform: rotateY(-180deg);
-    transition: 0.5s;
-}
-.movie8 a:hover{
-    color: rgb(68, 221, 68);
-    transition: .6s;
-}
-.movie8 a{
-    text-decoration: none;
-    color: white;
-}
-.movie9{
-    float: left;
-    width: 30%;
-    height: 400px;
-    margin-top: 20px;
-    margin-left: 2%;
-    background-color: rgb(18, 22, 22);
-    border: 1px solid  white;
-    box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
-    
-    
-    
-}
-
-.movie9 .text{
-    margin: 0%;
-    position: relative;
-    padding: 0;
-}
-.movie9 img{
-    height: 350px;
-}
-.movie9 img:hover{
-    opacity: .6;
-    transition: 0.5s;
-    transform: rotateY(-180deg);
-
-}
-.movie9 a:hover{
-    color: rgb(68, 221, 68);
-    transition: .6s;
-}
-.movie9 a{
-    text-decoration: none;
-    color: white;
-}
-
-.movie10{
-    float: left;
-    width: 30%;
-    height: 400px;
-    margin-top: 20px;
-    margin-left: 2%;
-    background-color: rgb(18, 22, 22);
-    border: 1px solid  white;
-    box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
-    
-    
-    
-}
-
-.movie10 .text{
-    margin: 0%;
-    position: relative;
-    padding: 0;
-}
-.movie10 img{
-    height: 350px;
-}
-.movie10 img:hover{
-    opacity: .6;
-    transition: 0.5s;
-    transform: rotateY(-180deg);
-
-}
-.movie10 a:hover{
-    color: rgb(68, 221, 68);
-    transition: .6s;
-}
-.movie10 a{
-    text-decoration: none;
-    color: white;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1283,60 +867,6 @@ position: relative;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*----------pagination css start--------*/
 
 .pnumber{
@@ -1369,11 +899,6 @@ position: relative;
 .pnumber a .i{
     color: blue;
 }
-
-
-
-
-
 
 
 
@@ -2453,7 +1978,16 @@ color: #4FCE5D;
 
 @media only screen and (min-width: 320px)  and (max-width: 767px) 
 {
-
+    .menuitems{
+        display: flex;
+        flex-direction: column;
+    }
+ .testingdiv{
+    display: none;
+ }
+ .testingdiv2{
+    display: none;
+ }
     .line{
         float: left;
         background-color: black;

@@ -1,7 +1,21 @@
 
+      /*--section start-- */
+      var section1 = querySelector("#section1"); 
+      addEventListener('mouseover',()=>{
+        
+        console.log() ; 
+       /* querySelector(".section1").classList.add('active');*/
+       section1.style.color="red"; 
+       
+      }
+      )
+      
+      /*--section start end-- */
+      
 document.getElementById("noteclose").addEventListener("click", function (){
     document.getElementById("notediv").style.display="none"
-    
+    /*--Movile Nav*/
+
   });
   document.getElementById("fa-bars").addEventListener("click", function(){ 
     document.getElementById("mobilenav").style.marginLeft="0%"
@@ -15,7 +29,7 @@ document.getElementById("noteclose").addEventListener("click", function (){
   
   });
   
-  
+  /*--Movile Nav End*/
   
   
   
