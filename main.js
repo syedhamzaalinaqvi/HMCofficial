@@ -3,9 +3,8 @@
    
    /*--section start-- */
      
-   var bollywoodsec = document.getElementById('pagebollywood');    
-   console.log("bollywood section :" + bollywoodsec);
-    
+   
+   
     /*--section  end-- */
    
 

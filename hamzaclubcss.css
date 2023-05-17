@@ -22,7 +22,7 @@ body{
     justify-content: center;
 
 }.testingdiv2 .section{
-    padding: 15px 35px 15px 35px;
+    padding: 10px 25px 10px 25px;
     border: 2px solid blue;
     border-radius: 0px 0px 20px 20px ;
     background-color: black;
@@ -32,12 +32,16 @@ body{
     box-shadow: 3px 5px 17px 3px green;
     outline:  2px solid green;
     transition: .5s;
+    font-weight: bold;
 }.testingdiv2 .section:hover{
     background-color: whitesmoke;
     color: black;
 }.testingdiv2 .active-section{
     background-color: whitesmoke;
-    color: black;}
+    color: blue;
+    text-shadow: 2px 2px 12px green;
+}
+    
 #nav{
     top: 0;
     width: 100%;
@@ -2118,16 +2122,20 @@ position: relative;}
  .testingdiv{
  }
  .testingdiv2{
-    height: 40px;
+    height: auto;
+    background-color: #08067e;
     position: relative;
+    align-content: center;
+    display: block;
     }
     .testingdiv2 .section{
-    border-radius:0 0 20px 20px;
+    border-radius:10px;
      padding-bottom: none;
-   
+    margin-top: 10px;
     padding: 5px;
     text-align: center;
     font-size: small;
+    display: block;
 
  }
     .line{
