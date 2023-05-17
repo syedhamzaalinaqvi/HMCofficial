@@ -35,7 +35,9 @@ body{
 }.testingdiv2 .section:hover{
     background-color: whitesmoke;
     color: black;
-}
+}.testingdiv2 .active-section{
+    background-color: whitesmoke;
+    color: black;}
 #nav{
     top: 0;
     width: 100%;

@@ -83,13 +83,13 @@
 <div class="testingdiv"><h3>Sections</h3></div>
 <br>
 <div class="testingdiv2">
-  <a href="nextp0.html" class="section section1" id="pageall"> All</a>
-  <a href="all_hollywoodmovies.html" class=" section section2" id="pagehollywood"> Hollywood</a>
-  <a href="all_bollywoodmovies.html" class=" section section3" id="pagebollywood"> Bollywood</a>
-  <a href="all_webseries.html" class=" section section4" id="pagewebseries"> Web series</a>
-  <a href="index.html" class=" section section5" id="pagepakistani"> Pakistani</a>
-  <a href="index.html" class=" section section6" id="pagesouthindian"> South indian</a>
-  <a href="index.html" class=" section section7" id="pagepunjabi"> Punjabi</a>
+  <a href="nextp0.html" class="section active-section" id="pageall"> All</a>
+  <a href="all_hollywoodmovies.html" class=" section " id="pagehollywood"> Hollywood</a>
+  <a href="all_bollywoodmovies.html" class=" section " id="pagebollywood"> Bollywood</a>
+  <a href="all_webseries.html" class=" section " id="pagewebseries"> Web series</a>
+  <a href="index.html" class=" section " id="pagepakistani"> Pakistani</a>
+  <a href="index.html" class=" section " id="pagesouthindian"> South indian</a>
+  <a href="index.html" class=" section " id="pagepunjabi"> Punjabi</a>
 </div>
 
 <br>
@@ -250,24 +250,8 @@
 
 
 
-          <script>
-            
+          <script src="main.js"></script>
 
-  
-  /* Slide show Start*/
-  
-  var slides = document.querySelectorAll('.slide');
-  var currentSlide = 0;
-  var slideInterval = setInterval(nextSlide, 2000);
-  
-  function nextSlide() {
-    slides[currentSlide].classList.remove('active');
-    currentSlide = (currentSlide + 1) % slides.length;
-    slides[currentSlide].classList.add('active');
-  }
-  /* Slide show END*/
-
-          </script>
             
  </body>
 </html>
