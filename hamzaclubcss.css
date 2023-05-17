@@ -1153,6 +1153,7 @@ position: relative;
     margin-left: 2%;
     border-radius: 8px;
     margin-top: 5px;
+    position: relative;
     
 }
 #notediv:hover{
@@ -1174,7 +1175,7 @@ position: relative;
     border-radius: 5px 0px 0px 0px;   
      padding: 5px 5px 0px 8px;
     background-color: #1cb12e;
-    top: 8px;
+    top:-5px;
   
 }
 #notediv .closebar:hover{
@@ -2117,8 +2118,9 @@ position: relative;}
  .testingdiv{
     display: none;
  }
- .testingdiv2{
-    display: none;
+ .testingdiv2 .section{
+    font-size: small;
+    padding: 5px;
  }
     .line{
         float: left;
