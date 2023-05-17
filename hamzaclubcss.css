@@ -1222,11 +1222,13 @@ position: relative;
 
 
 
-
+#formid{
+    behavior: smooth;
+}
 
 .formdiv{
     float: left;
-    background-color: rgb(18, 22, 22);
+    background-image: linear-gradient(to right, rgb(23, 0, 128),rgb(2, 0, 128),rgb(2, 0, 128),  white );
     width: 40%;
     height: 400px;
     margin-left: 30%;
