@@ -1453,7 +1453,10 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 }
 
 
-
+.volumetext{
+    color: white;
+    text-align: center;
+}
 
 .downloadinglink1{
     float: left;
