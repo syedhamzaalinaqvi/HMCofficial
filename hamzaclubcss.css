@@ -5,23 +5,23 @@ body{
      box-sizing: border-box;
      width: 100%;
 }
-.testingdiv{
+.sectiondiv{
     width: 100%;
     height: 30px;
 
     text-align: center;
-}.testingdiv h3{
+}.sectiondiv h3{
     font-size: 30px;
     color: #fff;
 }
-.testingdiv2{
+.sectionsdiv2{
     width: 100%;
     position: relative;
     display: flex;
     flex-direction: row;
     justify-content: center;
 
-}.testingdiv2 .section{
+}.sectionsdiv2 .section{
     padding: 10px 25px 10px 25px;
     border: 2px solid blue;
     border-radius: 0px 0px 20px 20px ;
@@ -33,10 +33,10 @@ body{
     outline:  2px solid green;
     transition: .5s;
     font-weight: bold;
-}.testingdiv2 .section:hover{
+}.sectionsdiv2 .section:hover{
     background-color: whitesmoke;
     color: black;
-}.testingdiv2 .active-section{
+}.sectionsdiv2 .active-section{
     background-color: whitesmoke;
     color: blue;
     text-shadow: 2px 2px 12px green;
@@ -910,175 +910,16 @@ position: relative;
 
 
 
-
-.pnumber #pn0{
+.pnumber #active-pn{
     background-color: white;
     color: black;
     border-radius: 3px;
 }
-.pnumber #pn0:hover{
+.pnumber #active-pn:hover{
     background-color: antiquewhite;
 }
 
 
-
-
-.pnumber #pn1{
-    background-color: white;
-    color: black;
-    border-radius: 3px;
-}
-.pnumber #pn1:hover{
-    background-color: antiquewhite;
-}
-
-
-
-
-
-
-.pnumber #pn2{
-    background-color: white;
-    color: black;
-    border-radius: 3px;
-}
-.pnumber #pn2:hover{
-    background-color: antiquewhite;
-}
-
-
-
-
-
-.pnumber #pn3{
-    background-color: white;
-    color: black;
-    border-radius: 3px;
-}
-.pnumber #pn3:hover{
-    background-color: antiquewhite;
-}
-
-
-
-
-
-.pnumber #pn4{
-    background-color: white;
-    color: black;
-    border-radius: 3px;
-}
-.pnumber #pn4:hover{
-    background-color: antiquewhite;
-}
-
-
-
-
-.pnumber #pn5{
-    background-color: white;
-    color: black;
-    border-radius: 3px;
-}
-.pnumber #pn5:hover{
-    background-color: antiquewhite;
-}
-
-
-
-.pnumber #pn6{
-    background-color: white;
-    color: black;
-    border-radius: 3px;
-}
-.pnumber #pn6:hover{
-    background-color: antiquewhite;
-}
-
-
-
-
-.pnumber #pn7{
-    background-color: white;
-    color: black;
-    border-radius: 3px;
-}
-.pnumber #pn7:hover{
-    background-color: antiquewhite;
-}
-
-
-
-
-.pnumber #pn8{
-    background-color: white;
-    color: black;
-    border-radius: 3px;
-}
-.pnumber #pn8:hover{
-    background-color: antiquewhite;
-}
-
-
-
-
-
-.pnumber #pn9{
-    background-color: white;
-    color: black;
-    border-radius: 3px;
-}
-.pnumber #pn9:hover{
-    background-color: antiquewhite;
-}
-
-
-
-
-
-.pnumber #pn10{
-    background-color: white;
-    color: black;
-    border-radius: 3px;
-}
-.pnumber #pn10:hover{
-    background-color: antiquewhite;
-}
-
-
-
-.pnumber #pn11{
-    background-color: white;
-    color: black;
-    border-radius: 3px;
-}
-.pnumber #pn11:hover{
-    background-color: antiquewhite;
-}
-
-
-
-.pnumber #pn12{
-    background-color: white;
-    color: black;
-    border-radius: 3px;
-}
-.pnumber #pn12:hover{
-    background-color: antiquewhite;
-}
-
-
-
-
-
-.pnumber #pn13{
-    background-color: white;
-    color: black;
-    border-radius: 3px;
-}
-.pnumber #pn13:hover{
-    background-color: antiquewhite;
-}
 
 /*----------pagination css end--------*/
 
@@ -2110,7 +1951,7 @@ position: relative;}
 
 
 
-/*--------------------for smart phone----------*/
+/*--------------------------for smart phone------------------------------*/
 
 @media only screen and (min-width: 320px)  and (max-width: 767px) 
 { 
@@ -2122,16 +1963,16 @@ position: relative;}
         flex-direction: column;
        
     }
- .testingdiv{
+ .sectiondiv{
  }
- .testingdiv2{
+ .sectionsdiv2{
     height: auto;
     background-color: #08067e;
     position: relative;
     align-content: center;
     display: block;
     }
-    .testingdiv2 .section{
+    .sectionsdiv2 .section{
     border-radius:10px;
      padding-bottom: none;
     margin-top: 10px;
@@ -2149,22 +1990,7 @@ position: relative;}
         margin-top: 10px;
         
     }
-
-.movie1 {
-        
-        width: 47%;
-        height: 310px;
-        margin-left: 2%;
-        overflow: hidden;
-    }
-    .movie2 {
-        
-        width: 47%;
-        height: 310px;
-        margin-left: 2%;
-        overflow: hidden;
-    }
-        
+   
 
 .detail-container{
     width: 92%;
@@ -2367,14 +2193,15 @@ float: left;
     .blank marquee{
         color: yellow;
     }
-    .line{
+    
+    /*.line{
         float: left;
         background-color: black;
         width: 100%;
         height: 4px;
         margin-top: 3px;
         
-    }
+    }*/
 
 
 
@@ -2485,62 +2312,30 @@ float: left;
     
 
 
-
-    .movie1{
-        float: left;
-        width: 40%;
-        height: 300px;
-        margin-top: 10px;
-        margin-left: 10%;
-        background-color: rgb(18, 22, 22);
-        border: 1px solid  white;
-        box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
-        font-size: small;
+.movie1 {
+        
+        width: 47%;
+        height: 310px;
+        margin-left: 2%;
         overflow: hidden;
+        font-weight: bold;
+        font-size: 12px;
+    } .movie1 img{
+        height: 270px;
+    }
+    .movie2 {
         
-        
-    }
-    .movie1 img{
-        height: 250px;
-    }
-    .movie1:hover{
-      
-        transition: 0.5s;
-    }
-    .movie1 a{
-        text-decoration: none;
-        color: white;
-        
-    }
-    .movie2{
-        float: left;
-        width: 40%;
-        height: 300px;
-        margin-top: 10px;
-        margin-left: 5%;
-        background-color: rgb(18, 22, 22);
-        border: 1px solid  white;
-        box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
-        color: white;
-        font-size: small;
+        width: 47%;
+        height: 310px;
+        margin-left: 2%;
         overflow: hidden;
-    
+        font-weight: bold;
+        font-size: 12px;
+    } .movie2 img{
+        height: 270px;
     }
-    .movie2 img{
-        height: 250px;
-    }
-    .movie2:hover{
-       
-        transition: 0.5s;
-    }
-    .movie2 a{
-        text-decoration: none;
-        color: white;
-    }
-
-
-
-
+     
+/*--------------------movies end------------*/
 
 
 
