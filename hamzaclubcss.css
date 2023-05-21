@@ -8,18 +8,18 @@ body{
 .sectiondiv{
     width: 100%;
     height: 30px;
-
     text-align: center;
 }.sectiondiv h3{
     font-size: 30px;
     color: #fff;
 }
 .sectionsdiv2{
-    width: 100%;
+    width: 90%;
+    margin: auto;
     position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+   /* display: flex;
+    flex-direction: row;*/
+    align-content: center;
 
 }.sectionsdiv2 .section{
     padding: 10px 25px 10px 25px;
@@ -28,14 +28,18 @@ body{
     background-color: black;
     color: #fff;
     text-decoration: none;
-    margin-left: 5px;
+    margin: 10px;
+
     box-shadow: 3px 5px 17px 3px green;
     outline:  2px solid green;
     transition: .5s;
     font-weight: bold;
+    float: left;
+    
 }.sectionsdiv2 .section:hover{
     background-color: whitesmoke;
     color: black;
+   
 }.sectionsdiv2 .active-section{
     background-color: whitesmoke;
     color: blue;
@@ -686,7 +690,7 @@ border: none;
     border: 1px solid  white;
     box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
     overflow: hidden;
-    
+    font-weight: bold;
     
     
 }
@@ -724,6 +728,7 @@ border: none;
     box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
     color: white;
     overflow: hidden;
+    font-weight: bold;
 }
 
 .movie2 .text{
@@ -1967,19 +1972,15 @@ position: relative;}
  }
  .sectionsdiv2{
     height: auto;
-    background-color: #08067e;
     position: relative;
     align-content: center;
-    display: block;
     }
     .sectionsdiv2 .section{
-    border-radius:10px;
-     padding-bottom: none;
     margin-top: 10px;
-    padding: 5px;
     text-align: center;
     font-size: small;
-    display: block;
+    padding: 2px 5px;
+    border-radius: 0px 0px 15px 15px;
 
  }
     .line{
