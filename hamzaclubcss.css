@@ -1265,7 +1265,7 @@ color: #4FCE5D;
     position: relative;
     box-shadow: 13px 17px 10px black;
     padding-bottom: 20px;
-    border: 2px solid whitesmoke;
+    border: 1px solid whitesmoke;
 }
 .downloadingserver p{
 text-align: center;
@@ -2370,7 +2370,6 @@ position: relative;
      
         width: 70%;
         margin-left: 15%;
-
     }
    
     #downloadinglink{
