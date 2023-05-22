@@ -1302,9 +1302,12 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 }
 
 
-.volumetext{
+.voltext{
+    float: left;
+    margin-left: 40%;
     color: white;
     text-align: center;
+      
 }
 
 .downloadinglink1{
@@ -2371,7 +2374,9 @@ position: relative;
         width: 70%;
         margin-left: 15%;
     }
-   
+   .voltext{
+    margin-left: 25%;
+   }
     #downloadinglink{
         color: white;
         
