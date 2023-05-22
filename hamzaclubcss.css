@@ -1257,13 +1257,15 @@ color: #4FCE5D;
 .downloadingserver{
     float: left;
     width: 50%;
-    height: 600px;
-    background-image: linear-gradient(to right, rgb(23, 0, 128),rgb(2, 0, 128),rgb(9, 0, 128),  white );
+    background-color: #000;
+   /* background-image: linear-gradient(to right, rgb(23, 0, 128),rgb(2, 0, 128),rgb(9, 0, 128),  white );*/
     margin-top: 15px;
     margin-left: 25%;
-    border-radius: 10px 0 10px ;
+    border-radius: 20px;
     position: relative;
     box-shadow: 13px 17px 10px black;
+    padding-bottom: 20px;
+    border: 2px solid whitesmoke;
 }
 .downloadingserver p{
 text-align: center;
@@ -1271,30 +1273,31 @@ color: #15c529;
 text-shadow: 2px 2px 6px black;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 #downloadinglink{
     float: left;
     background-color: blue;
     color: white;
     padding: 10px;
     text-align: center;
-   
+    border: 1px solid white;
     margin-left: 30%;
     margin-top: 100px;
     box-shadow: 13px 17px 10px black;
     text-decoration: none;
     border-radius: 50px;
-    font-size: 22px;
+    font-size: 18px;
     text-decoration: none;
+    font-weight: bold;
 
 
     
 }
 #downloadinglink:hover{
     background-color: rgb(12, 12, 77);
-    border-radius: 50px 0 50px;
     transition: 0.5s;
-    border-bottom: 1px solid white;
-    color: #4FCE5D
+    border: 1px solid #4FCE5D;
+    color: #4FCE5D;
 
 }
 
@@ -1306,234 +1309,51 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 
 .downloadinglink1{
     float: left;
-    
     background-color: blue;
     color: white;
-    width: 40%;
     text-align: center;
-    
-    margin-left: 30%;
-    
-    box-shadow: 13px 17px 10px black;
-}
-.downloadinglink1 a{
+    margin-left: 35%;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 18px;
     text-decoration: none;
     color: white;
-    
+    font-weight: bold;
 }
+
 .downloadinglink1:hover{
-    background-color: gray;
-    border-radius: 10px 0 10px;
+    background-color: rgb(12, 12, 77);
     transition: 0.5s;
-    border-bottom:1px solid white;
+    border: 1px solid #4FCE5D;
+    color: #4FCE5D;
+    box-shadow: 5px 5px  17px 6px green;
 
 }
 .downloadinglink2{
     float: left;
     background-color: blue;
     color: white;
-    width: 40%;
     text-align: center;
     margin-top: 15px;
-    margin-left: 30%;
-    
-    box-shadow: 13px 17px 10px black;
-}
-
-.downloadinglink2 a{
+    margin-left: 35%;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 18px;
     text-decoration: none;
     color: white;
-    
+    font-weight: bold;
+
 }
+
 .downloadinglink2:hover{
-    background-color: gray;
-    border-radius: 10px 0 10px;
+    background-color: rgb(12, 12, 77);
     transition: 0.5s;
-    border-bottom:1px solid white;
-}
-.downloadinglink3{
-    float: left;
-    background-color: blue;
-    color: white;
-    width: 40%;
-    text-align: center;
-    margin-top: 15px;
-    margin-left: 30%;
-    
-    box-shadow: 13px 17px 10px black;
-}
+    border: 1px solid #4FCE5D;
+    color: #4FCE5D;
+    box-shadow: 5px 5px  17px 6px green;
 
-.downloadinglink3 a{
-    text-decoration: none;
-    color: white;
-    
-}
-.downloadinglink3:hover{
-    background-color: gray;
-    border-radius: 10px 0 10px;
-    transition: 0.5s;
-    border-bottom:1px solid white;
-}
-.downloadinglink4{
-    float: left;
-    background-color: blue;
-    color: white;
-    width: 40%;
-    text-align: center;
- margin-top: 15px;
-    margin-left: 30%;
-    
-    box-shadow: 13px 17px 10px black;
-}
-
-.downloadinglink4 a{
-    text-decoration: none;
-    color: white;
-    
-}
-.downloadinglink4:hover{
-    background-color: gray;
-    border-radius: 10px 0 10px;
-    transition: 0.5s;
-    border-bottom:1px solid white;
-}
-.downloadinglink5{
-    float: left;
-    background-color: blue;
-    color: white;
-    width: 40%;
-    text-align: center;
-   margin-top: 15px;
-    margin-left: 30%;
-    
-    box-shadow: 13px 17px 10px black;
-}
-
-.downloadinglink5 a{
-    text-decoration: none;
-    color: white;
-    
-}
-.downloadinglink5:hover{
-    background-color: gray;
-    border-radius: 10px 0 10px;
-    transition: 0.5s;
-    border-bottom:1px solid white;
-}
-.downloadinglink6{
-    float: left;
-    background-color: blue;
-    color: white;
-    width: 40%;
-    text-align: center;
-  margin-top: 15px;
-    margin-left: 30%;
-    
-    box-shadow: 13px 17px 10px black;
-}
-
-.downloadinglink6 a{
-    text-decoration: none;
-    color: white;
-    
-}
-.downloadinglink6:hover{
-    background-color: gray;
-    border-radius: 10px 0 10px;
-    transition: 0.5s;
-    border-bottom:1px solid white;
-}
-.downloadinglink7{
-    float: left;
-    background-color: blue;
-    color: white;
-    width: 40%;
-    text-align: center;
-    margin-top: 15px;
-    margin-left: 30%;
-    
-    box-shadow: 13px 17px 10px black;
-}
-
-.downloadinglink7 a{
-    text-decoration: none;
-    color: white;
-    
-}
-.downloadinglink7:hover{
-    background-color: gray;
-    border-radius: 10px 0 10px;
-    transition: 0.5s;
-    border-bottom:1px solid white;
-}
-.downloadinglink8{
-    float: left;
-    background-color: blue;
-    color: white;
-    width: 40%;
-    text-align: center;
-    margin-top: 15px;
-    margin-left: 30%;
-    
-    box-shadow: 13px 17px 10px black;
-}
-
-.downloadinglink8 a{
-    text-decoration: none;
-    color: white;
-    
-}
-.downloadinglink8:hover{
-    background-color: gray;
-    border-radius: 10px 0 10px;
-    transition: 0.5s;
-    border-bottom:1px solid white;
-}
-.downloadinglink9{
-    float: left;
-    background-color: blue;
-    color: white;
-    width: 40%;
-    text-align: center;
-    margin-top: 15px;
-    margin-left: 30%;
-    
-    box-shadow: 13px 17px 10px black;
-}
-
-.downloadinglink9 a{
-    text-decoration: none;
-    color: white;
-    
-}
-.downloadinglink9:hover{
-    background-color: gray;
-    border-radius: 10px 0 10px;
-    transition: 0.5s;
-    border-bottom:1px solid white;
-}
-.downloadinglink10{
-    float: left;
-    background-color: blue;
-    color: white;
-    width: 40%;
-    text-align: center;
-    margin-top: 15px;
-    margin-left: 30%;
-    
-    box-shadow: 13px 17px 10px black;
-}
-
-.downloadinglink10 a{
-    text-decoration: none;
-    color: white;
-    
-}
-.downloadinglink10:hover{
-    background-color: gray;
-    border-radius: 10px 0 10px;
-    transition: 0.5s;
-    border-bottom:1px solid white;
 }
 
 /*----------Downloading page Css end-----------*/
@@ -2546,34 +2366,34 @@ position: relative;
 
     
     
-    .downloadingserver{
-        float: left;
-        width: 90%;
-        height: 500px;
-        background-color: rgb(18, 22, 22);
-        margin-top: 15px;
-        margin-left: 5%;
-        border-radius: 10px 0 10px ;
-        color: white;
-        text-align: center;
-        box-shadow: 13px 17px 10px black;
-        border-left: 1px solid white;
+  .downloadingserver{
+     
+        width: 70%;
+        margin-left: 15%;
 
     }
    
-    .downloadingserver #downloadinglink{
-        float: left;
-        background-color: blue;
+    #downloadinglink{
         color: white;
-        width: 40%;
-        text-align: center;
-        height: 30px;
-        margin-left: 30%;
+        
+        margin: auto;
         margin-top: 100px;
-        box-shadow: 13px 17px 10px black;
+        margin-left: 25%;
+        
         font-size: 15px;
     }
-    
+    .downloadinglink1{
+        float: none;
+        font-size: 14px;
+        margin-left: 25%;
+
+    }
+    .downloadinglink2{
+        font-size: 14px;
+        margin-left: 25%;
+
+    }
+   
    /*--------Downloading pages Css end------------*/
 
 }
