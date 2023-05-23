@@ -1255,17 +1255,20 @@ color: #4FCE5D;
 /*----------Downloading page Css-----------*/
 
 .downloadingserver{
-    float: left;
-    width: 50%;
+    width: 90%;
     background-color: #000;
    /* background-image: linear-gradient(to right, rgb(23, 0, 128),rgb(2, 0, 128),rgb(9, 0, 128),  white );*/
-    margin-top: 15px;
-    margin-left: 25%;
+   margin: auto;
+   margin-top: 100px;
     border-radius: 20px;
     position: relative;
     box-shadow: 13px 17px 10px black;
     padding-bottom: 20px;
     border: 1px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
 }
 .downloadingserver p{
 text-align: center;
@@ -1275,13 +1278,12 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 }
 
 #downloadinglink{
-    float: left;
     background-color: blue;
     color: white;
     padding: 10px;
+    margin: auto;
     text-align: center;
     border: 1px solid white;
-    margin-left: 30%;
     margin-top: 100px;
     box-shadow: 13px 17px 10px black;
     text-decoration: none;
@@ -1311,14 +1313,13 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 }
 
 .downloadinglink1{
-    float: left;
     background-color: blue;
     color: white;
     text-align: center;
-    margin-left: 35%;
     border: 1px solid white;
     border-radius: 5px;
     padding: 5px 20px;
+    margin: auto;
     font-size: 18px;
     text-decoration: none;
     color: white;
@@ -1334,12 +1335,12 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 
 }
 .downloadinglink2{
-    float: left;
     background-color: blue;
     color: white;
     text-align: center;
-    margin-top: 15px;
-    margin-left: 35%;
+    margin: auto;
+        margin-top: 15px;
+
     border: 1px solid white;
     border-radius: 5px;
     padding: 5px 20px;
@@ -2372,29 +2373,29 @@ position: relative;
   .downloadingserver{
      
         width: 70%;
-        margin-left: 15%;
+        margin-top: 250px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
     }
    .voltext{
-    margin-left: 25%;
+   
    }
     #downloadinglink{
         color: white;
-        
-        margin: auto;
         margin-top: 100px;
-        margin-left: 25%;
-        
+           
         font-size: 15px;
     }
     .downloadinglink1{
-        float: none;
         font-size: 14px;
-        margin-left: 25%;
+        
+   
 
     }
     .downloadinglink2{
         font-size: 14px;
-        margin-left: 25%;
+       
 
     }
    
