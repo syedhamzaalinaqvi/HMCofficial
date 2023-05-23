@@ -45,7 +45,11 @@ body{
     color: blue;
     text-shadow: 2px 2px 12px green;
 }
-    
+.active-section{
+    background-color: whitesmoke;
+    color: blue;
+    text-shadow: 2px 2px 12px green;
+}   
 #nav{
     top: 0;
     width: 100%;

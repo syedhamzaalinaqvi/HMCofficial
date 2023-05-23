@@ -2,7 +2,11 @@
    
    
    /*--section start-- */
-     
+
+      var punjabi_section = document.querySelector("#pagepunjabi").addEventListener('click', function(){
+         classList.add('active-section');
+
+   });
    
    
     /*--section  end-- */
