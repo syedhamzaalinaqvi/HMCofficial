@@ -775,36 +775,36 @@ border: none;
 /*----------Detail page Css star------------*/
 .detail-container{
     width: 90%;
-    height: 900px;
-    margin-left: 5%;
+    height: auto;
+    margin: auto;
     margin-top: 50px;
     position: relative;
-    float: left;
     box-shadow: 2px 3px 25px gray; 
     border-radius: 5px;
     border-bottom: 1px solid grey;
+    padding: 30px;
 
 }
 .detail-container img{
-    height: 300px;
-    width: 250px;
-    margin-left: 100px;
+    height: 500px;
+    width: 350px;
+    margin:auto;
     margin-top: 20px;
     position: relative;
-    float: left;
+    display: block;
 
 }
 .detail-container img:hover{
     transform: rotateY(-180deg);
 }
 .movie-detail{
-    float: left;
     height: 300px;
     width: 60%;
     margin-top: 20px;
     position: relative;
     font-size: larger;
     color: white;
+    margin-left: 200px;
 }
 .movie-detail-heading{
     color: green;
@@ -816,9 +816,8 @@ border: none;
 }
 .storylinediv{
     width: 80%;
-    float: left;
     position: relative;
-    margin-left: 10%;
+    margin: auto;
     margin-top: 20px;
     text-align: center;
     color: white;
@@ -830,7 +829,6 @@ border: none;
 width: 100%;
 margin-top: 150px;
 text-align: center;
-float: left;
 position: relative;
 }
 #downloadingnxtbtn a{
@@ -852,7 +850,6 @@ position: relative;
     width: 100%;
     margin-top: 50px;
     text-align: center;
-    float: left;
     position: relative;
     }
 .comingsoon a{
@@ -1731,7 +1728,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 
 /*-----------------Movie detail start----------*/
 .detail-container{
-    height: 1250px;
+    height: auto;
 
 
 }
@@ -1743,10 +1740,9 @@ width: 300px;
     transform: rotateY(-180deg);
 }
 .movie-detail{
-    float: left;
     height: auto;
     width: 80%;
-    margin-left: 10%;
+    margin: auto;
     margin-top: 20px;
     font-size: 18px;
     cursor: default;
@@ -1762,7 +1758,7 @@ width: 300px;
 }
 .storylinediv{
     width: 98%;
-    margin-left: 1%;
+    margin: auto;
     cursor: default;
 }
 
@@ -1821,21 +1817,8 @@ position: relative;}
     }
    
 
-.detail-container{
-    width: 92%;
-    margin-left: 4%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    overflow: scroll;
-}
-    .detail-container img {
-    height: 300px;
-    width: 230px;
-    margin-left: 40px;
-    margin-top: 20px;
-    position: relative;
-    float: left;
-}
+
+    
 #downloadingnxtbtn{
     margin-top: 20px;
 }
@@ -2041,7 +2024,7 @@ float: left;
 
 
 
-/*-------------HMC home page-----------------*/
+/*-------------HMC home page-----------------
 
 
 
@@ -2178,19 +2161,26 @@ float: left;
 
 
 .detail-container{
-    height: 1250px;
+    height: auto;
+    margin: auto;
+    width: 85%;
 }
-.detail-container img{
+.detail-container img {
     display: block;
+    height: 300px;
+    width: 230px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    
 }
 .detail-container img:hover{
     transform: rotateY(-180deg);
 }
 .movie-detail{
-    float: left;
     height: auto;
     width: 80%;
-    margin-left: 10%;
+    margin: auto;
     margin-top: 20px;
     font-size: 18px;
     cursor: default;
@@ -2205,7 +2195,7 @@ float: left;
 }
 .storylinediv{
     width: 98%;
-    margin-left: 1%;
+    margin: auto;
     cursor: default;
     position: relative;
 }
