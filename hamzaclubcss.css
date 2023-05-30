@@ -2161,9 +2161,11 @@ float: left;
 
 
 .detail-container{
+    float: left;
     height: auto;
-    margin: auto;
-    width: 85%;
+    margin-left: 5%;
+    width: 80%;
+    position: relative;
 }
 .detail-container img {
     display: block;
