@@ -242,23 +242,7 @@ position: relative;
 }*/
 
 
-/*
 
-
-  <div class="menuitems" id="menuitems"> 
-        <a href="index.html" class="home">  Home </a>
-        <a href="index.html" class="home">  Web Series </a>
-        <a href="index.html" class="home">  Dual audio </a>
-        <a href="index.html" class="home">  bollywood </a>
-        <a href="index.html" class="home">  English </a>
-        <a href="index.html" class="home">  Horror</a>
-        <a href="index.html" class="home">  Pakistani </a>
-        <a href="#formid" class="contact"> Contact Us </a>
-        <a href="about.html" class="about" target="_blank"> About Us </a>
-        <a href="about.html" class="privacy" target="_blank"> Privacy </a>
-    </div>
-
-*/
 
 
  .menuitems{
@@ -1213,13 +1197,13 @@ color: #4FCE5D;
 
 
 
-/*----------About page Css-----------*/
+/*----------Privacy page Css-----------*/
 
 
 
-.aboutpage{
+.privacypage{
     float: left;
-    background-color: rgb(22, 21, 21);
+    background-color: black;
     width: 100%;
     height: auto;
     color: rgb(199, 72, 72);
@@ -1228,30 +1212,37 @@ color: #4FCE5D;
     overflow: hidden;
     position: relative;
    text-justify: auto;
-   border-top:  1px solid white;
-   border-bottom: 1px solid white;
+ 
 
 }
-.aboutpage .aboutpagecontent{
-    width: 96%;
-    margin-left: 2%;
-    background-color: rgb(22, 21, 21);
+.privacypage .privacypagecontent{
+    width: 90%;
+    margin: auto;
+    
     text-justify: kashida;
-    color: rgb(24, 180, 24);
+    color:white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid white;
 }
-.aboutpage .aboutpagecontent .aboutpgh3{
-    color: rgb(14, 0, 209);
+.privacypage .privacypagecontent .privacypgh3{
+    color: green;
     margin-left: 10px;
     font: bold;
     font-weight: 1000;
     font-size: 22px;
+    text-shadow: 1.5px 1.5px black;
+
 
 }
-.aboutpage  p{
+.privacypage  p{
     position: relative;
 
 }
-/*----------About page Css Start-----------*/
+
+/*----------privacy page Css Start-----------*/
 
 /*----------Downloading page Css-----------*/
 
