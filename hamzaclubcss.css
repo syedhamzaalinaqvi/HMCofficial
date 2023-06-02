@@ -78,7 +78,9 @@ body{
 #nav .logo .mc{
     color: rgb(68, 221, 68);
 }
-
+.mc{
+    color: rgb(68, 221, 68);
+}
 
 #nav .socialdiv{
     float: right;
