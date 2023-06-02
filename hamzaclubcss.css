@@ -2154,8 +2154,9 @@ float: left;
 
 
 .detail-container{
-    float: left;
     height: auto;
+    padding: 15px;
+    margin-top: 150px;
     position: relative;
     width: 80%;
         display: block;
