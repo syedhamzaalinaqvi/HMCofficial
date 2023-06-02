@@ -9,7 +9,7 @@
         <meta charset="UTF-8"> 
         <link rel="SHORTCUT ICON" type="image/x-icon" href="web1pic/logo.png ">
          <script src="https://kit.fontawesome.com/5013575cda.js" crossorigin="anonymous"></script>
-
+        <script src="main.js"></script>
 
     
          <style>
@@ -19,6 +19,7 @@
              .about_main_div{
                  width: 100%;
                  position: relative;
+                 float: left;
              }
              .about_wellcome_heading_div{
                 font-size: 28px;
@@ -88,7 +89,15 @@
                  color: blue;
              }
          
-         
+         @media screen and (min-width: 370px) and (max-width: 767px) {
+            .about_wellcome_heading_div{
+                font-size: 25px;
+            }
+            .about_container1 p, .about_container2 p{
+                font-size: 18px;
+            }
+
+         }
          </style>
     
          <body>
@@ -152,7 +161,7 @@
 
     <div class="about_main_div">
 
-        <div class="about_wellcome_heading_div"><h2> Wellcome to HAMZAMOVI3SCLUB</h2></div> 
+        <div class="about_wellcome_heading_div"><h2> Wellcome to <span class="mc"> HAMZAMOVI3SCLUB </span></h2></div> 
         
         
         
