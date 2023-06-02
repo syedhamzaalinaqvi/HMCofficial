@@ -2158,7 +2158,8 @@ float: left;
     height: auto;
     position: relative;
     width: 80%;
-    margin: auto;
+        display: block;
+        justify-content: center;
 }
 .detail-container img {
     display: block;
