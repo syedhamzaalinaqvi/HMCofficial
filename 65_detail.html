@@ -54,7 +54,7 @@
         <a href="index.html" class="home">  Pakistani </a>
         <a href="#formid" class="contact"> Contact Us </a>
         <a href="about.html" class="about" target="_blank"> About Us </a>
-        <a href="about.html" class="privacy" target="_blank"> Privacy </a>
+        <a href="privacy.html" class="privacy" target="_blank"> Privacy </a>
     </div>
     <i class="fa-solid fa-xmark closebar" id="closebar" ></i>
 
@@ -135,6 +135,21 @@
     <div class="copyrightdiv"><copyrighttxt class="copyrighttxt "> &copy Copy Right 2023</copyrighttxt > </div>
       </div>
   
-<script src="main.js"></script>
+<script src="main.js">
+    /*----------------------Movile Nav----------------------------------------------*/
+
+document.getElementById("fa-bars").addEventListener("click", function(){ 
+  document.getElementById("mobilenav").style.marginLeft="0%"
+  document.getElementById("mobilenav").style.transition="0.5s%"
+
+})
+  
+document.getElementById("closebar").addEventListener("click", function(){
+  document.getElementById("mobilenav").style.marginLeft ="-100%"
+  document.getElementById("mobilenav").style.transition ="1.5s"
+
+});
+/*--Movile Nav End*/
+</script>
 </body>
 </html>
