@@ -2156,9 +2156,9 @@ float: left;
 .detail-container{
     float: left;
     height: auto;
-    margin-left: 5%;
-    width: 80%;
     position: relative;
+    width: 80%;
+    margin: auto;
 }
 .detail-container img {
     display: block;
@@ -2166,7 +2166,6 @@ float: left;
     width: 230px;
     margin: auto;
     margin-top: 20px;
-    position: relative;
     
 }
 .detail-container img:hover{
