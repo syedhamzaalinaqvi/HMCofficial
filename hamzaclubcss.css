@@ -332,7 +332,7 @@ border: none;
 
 
 
-/*-------------HMC home page-----------------*/
+/*-------------HMC home page-----------------
 
 
 
@@ -769,6 +769,7 @@ border: none;
     border-radius: 5px;
     border-bottom: 1px solid grey;
     padding: 30px;
+    
 
 }
 .detail-container img{
@@ -1722,6 +1723,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 /*-----------------Movie detail start----------*/
 .detail-container{
     height: auto;
+    padding-bottom: 40px;
 
 
 }
@@ -2161,6 +2163,7 @@ float: left;
     width: 80%;
         display: block;
         justify-content: center;
+        padding-bottom: 50px;
 }
 .detail-container img {
     display: block;
