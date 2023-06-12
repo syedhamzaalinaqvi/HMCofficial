@@ -25,12 +25,12 @@ document.getElementById("closebar").addEventListener("click", function(){
   document.getElementById("mobilenav").style.transition ="1.5s"
 
 });
-/*--Movile Nav End*/
+//--Movile Nav End
 
 
 
 
-/* Slide show Start*/
+// Slide show Start
 
                     var slides = document.querySelectorAll('.slide');
 var currentSlide = 0;
@@ -41,11 +41,60 @@ function nextSlide() {
   currentSlide = (currentSlide + 1) % slides.length;
   slides[currentSlide].classList.add('active');
 }
-/* Slide show END*/
+// Slide show END
 
 let noteclose = document.getElementById("noteclose");
 noteclose.addEventListener('click',()=>{
 document.querySelector("#notediv").style.display="none";
-
-
 })
+
+
+//Slide show end
+
+
+
+//==========Search Filter JS Start=====================
+
+
+
+var filter = document.getElementById('myInput');
+
+filter.addEventListener('blur',()=>{
+  filter.style.border='1px solid blue';
+  
+})
+filter.addEventListener('focus',()=>{
+  filter.style.border='1px solid green';
+  
+})
+
+
+ filter.addEventListener('keyup', () =>{
+
+
+
+
+
+
+let searchbar  = filter.value.toUpperCase();
+let Allmovies = document.getElementById('all_movies');
+let movie1= Allmovies.getElementsByClassName('movie1');
+
+for(var i = 0; i < movie1.length ; i++ ){
+
+
+
+let link= movie1[i].getElementsByTagName('a')[0];
+
+  
+  let textvalue =  link.textContent || link.innerText ;   
+   
+  if(textvalue.toUpperCase().indexOf(searchbar) > -1 ){
+    movie1[i].style.display= ""; 
+     
+   }else{
+    movie1[i].style.display="none";
+   }
+ }
+  })
+//==========Search Filter JS End=====================
