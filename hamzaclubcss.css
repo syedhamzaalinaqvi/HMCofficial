@@ -1922,7 +1922,7 @@ nav .socialdiv{
     color: whitesmoke;
     outline: red;
     padding: 5px 10px 5px 0px;
-    top: 312px;
+    top: 50%;
     position: absolute;
     background-color: #1410f3;
     border-radius:0 50px 50px 0;
