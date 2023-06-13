@@ -90,7 +90,8 @@ let link= movie1[i].getElementsByTagName('a')[0];
   let textvalue =  link.textContent || link.innerText ;   
    
   if(textvalue.toUpperCase().indexOf(searchbar) > -1 ){
-    movie1[i].style.display= ""; 
+    movie1[i].style.display= "";
+
      
    }else{
     movie1[i].style.display="none";
