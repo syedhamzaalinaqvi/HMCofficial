@@ -2218,7 +2218,7 @@ float: left;
 
 #downloadingnxtbtn{
 
-height: 30px;
+height: auto;
 margin-top: 100px;
 position: relative;
 }
