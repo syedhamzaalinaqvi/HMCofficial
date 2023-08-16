@@ -99,3 +99,8 @@ let link= movie1[i].getElementsByTagName('a')[0];
  }
   })
 //==========Search Filter JS End=====================
+
+//==========Search bar removed start=====================
+let searchbox = document.getElementsByClassName("searchbox")
+searchbox.style.display="none";
+//==========Search bar removed End=====================
