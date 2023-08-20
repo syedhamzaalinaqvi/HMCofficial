@@ -101,6 +101,14 @@ let link= movie1[i].getElementsByTagName('a')[0];
 //==========Search Filter JS End=====================
 
 //==========Search bar removed start=====================
-let searchbox = document.getElementsByClassName("searchbox")
-searchbox.style.display="none";
+let searchbox = document.getElementsByClassName("searchbox");
+ searchbox.style.display="none";
 //==========Search bar removed End=====================
+
+//==========add adsterra link  start=====================
+var head = document.getElementsByTagName('head');
+
+var header = head.classList.add("header");
+
+
+//==========add adsterra link End=====================
