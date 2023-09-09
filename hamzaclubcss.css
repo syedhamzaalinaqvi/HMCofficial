@@ -262,7 +262,7 @@ position: relative;
 
 
 
-
+/*setting for blogger site Menu display none; and searh box display none; */
 
  .menuitems{
 
@@ -274,6 +274,7 @@ position: relative;
     margin-top: 30px;
      justify-content: center;
     border-bottom: 1px solid whitesmoke ;
+    display: none;
 }
  .menuitems a{
     position: relative;
@@ -298,6 +299,7 @@ position: relative;
     box-sizing: none;
     height: 20px;
     top: 35px;
+    display: none;
 
 }
   
