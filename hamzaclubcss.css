@@ -182,11 +182,12 @@ text-shadow: gray 1px 5px 16px;
 /*-----------------SLide show  start-------------------------- */
 .slideshow-container {
     width: 100%;
-    height: 400px;
+    height: 450px;
     overflow: hidden;
     position: relative;
     
     background: transparent;
+    
 
   }
   
@@ -227,22 +228,16 @@ text-shadow: gray 1px 5px 16px;
 
 
 .head{
-    background-color:black;
-    height: 110px;
-    width: 100%;
-    float: left;
-/*background-image: url("web1pic/pexels-sebastiaan-stam-1097456.jpg");*/
-    background-repeat: no-repeat;
-    background-size: cover;
-position: relative;    
+      
 }
 .head h1{
     background-color: white;
-    float: left;
+    
     width: 100%;
     text-align: center;
     position: relative;
     top: 50px;
+    z-index: 1;
     
 }
 /*
@@ -267,22 +262,25 @@ position: relative;
  .menuitems{
 
     position: relative;
-    float: left;
+    
     width: 100%;
     height: 40px;
+    margin-top: 50px;
     display: flex;
-    margin-top: 30px;
-     justify-content: center;
+    justify-content: center;
     border-bottom: 1px solid whitesmoke ;
-    display: none;
+
 }
  .menuitems a{
-    position: relative;
+
     padding: 8px;
     color: white;
     text-decoration: none;
     font-size: 18px;
     border-right: 1px solid whitesmoke;
+    background-color: #110c0c;
+    border-radius: 5px;
+    margin: 2px;
    
 }
  .menuitems a:hover{
@@ -293,7 +291,7 @@ position: relative;
 
 }
 
-
+/*-----search box started-----------*/
 .searchbox {  position: absolute;
     margin-left: 75%;
     box-sizing: none;
@@ -321,11 +319,14 @@ border-bottom: 1px solid white;
 background-color: rgb(24, 29, 29);
 transition: .5s;
 }
+
+/*-----search box end-----------*/
+
+
 .blank{
     width: 100%;
     height: 30px;
     background-image: linear-gradient(to right, rgb(23, 0, 128),rgb(2, 0, 128),rgb(9, 0, 128),  white );
-    float: left;
     position: relative;
     margin-top: 10px;
 
@@ -338,7 +339,6 @@ transition: .5s;
     color: red;
 }
 .line{
-    float: left;
     background-image: linear-gradient(to right, rgb(23, 0, 128),rgb(2, 0, 128),rgb(9, 0, 128),  white );
 border: none;
     width: 100%;
@@ -669,7 +669,6 @@ border: none;
 
 
 .movies{
-    float: left;
     color: rgb(68, 221, 68);
     width: 100%;
     height: 45px;
@@ -687,12 +686,21 @@ border: none;
 
 /*---------Movies started---------*/
 
+#all_movies{
+    position: relative;
+   
+    background: transparent;
+    padding: 10px;
+    height: 2880px;
+    overflow: hidden;
 
+}
 
 .movie1{
+
     float: left;
     width: 30%;
-    height: 400px;
+    height: 400px;   
     margin-top: 10px;
     margin-left: 2%;
     background-color: rgb(18, 22, 22);
@@ -700,7 +708,7 @@ border: none;
     box-shadow: 3px 5px 15px 5px  rgb(2, 0, 128);
     overflow: hidden;
     font-weight: bold;
-    
+  
     
 }
 .movie1 .text{
@@ -767,9 +775,31 @@ border: none;
 
 
 
+/*===========Load more button css========*/
+#load-more-div{
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
 
-
-
+#load-more-div .load-more-btn, .load-more-btn1{
+    width: fit-content;
+    margin: auto;
+    background-color: black;
+    color: white;
+    border: 1px solid blue;
+    padding: 5px 15px;
+    margin-top: 30px;
+    display: none;
+}
+#load-more-div .load-more-btn:hover , .load-more-btn1:hover{
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+}
+.load-more-btn1{
+    display: block;
+}
 
 
 
@@ -778,6 +808,10 @@ border: none;
 
 
 /*----------Detail page Css star------------*/
+.movie-title{
+ color: whitesmoke;
+ text-align: center;
+}
 .detail-container{
     width: 90%;
     height: auto;
@@ -790,6 +824,15 @@ border: none;
     padding: 30px;
     
 
+}
+
+.disc-movie-div{
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+.disc-movie-div p{
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .detail-container img{
     height: 500px;
@@ -837,15 +880,16 @@ margin-top: 150px;
 text-align: center;
 position: relative;
 }
-#downloadingnxtbtn a{
+#downloadingnxtbtn button{
     text-decoration: none;
     color: white;
     padding: 10px 20px 10px 20px;
     background-color: #1410f3;
     border-radius: 8px;
+    
 
 }
-#downloadingnxtbtn a:hover{
+#downloadingnxtbtn button:hover{
     background-color: #08067e;
 
 }
@@ -866,7 +910,7 @@ position: relative;
     background-color:rgb(78, 76, 76);
 
 }
-.downloadingsznbtn a{
+.downloadingsznbtn button{
         text-decoration: none;
         color: white;
         padding: 10px 20px 10px 20px;
@@ -874,7 +918,7 @@ position: relative;
         border-radius: 8px;
     
     }
-    .downloadingsznbtn a:hover{
+    .downloadingsznbtn button:hover{
         background-color: #08067e;
     
     }
@@ -888,17 +932,16 @@ position: relative;
 /*----------pagination css start--------*/
 
 .pnumber{
-    /*margin-top: :
-    background-color: ;*/
+    /*margin-top: :*/
+    position: relative;
+    background: transparent;
     width: 100%;
-  
+    display: inline-block;
     text-align: center;
-    float: left;
-    margin-top: 35px;  
+    margin-bottom: 15px ;
+    margin-top: 15px ;
     
-  
-  
-  }
+}
 
 .pnumber a{
     text-decoration: none;
@@ -907,6 +950,7 @@ position: relative;
     padding: 10px;
     border-radius: 3px;
     border: 1px solid blue;
+
    
 }
 .pnumber a:hover{
@@ -946,54 +990,6 @@ position: relative;
 
 /*--------------Categeries start-------------*/
 
-.catgeriesdiv{
-    position: relative;
-    background-color: black;
-    height: 450px;
-    width: 100%;
-    float: left;
-    top: 20px;
-    border-top: 1px solid white;
-}
-.catgerieslinkdiv{
-    position: relative;
-    background-color: black;
-    height: 350px;
-    width: 100%;
-    float: left;
-    top: 5px;
-
-}
-.catgeriesh1{
-    bottom: 0;
-    color: #fff;
-    margin-left: 5px;
-}
-.a{
-    text-decoration: none;
-    color: aliceblue;
-    margin-left: 50px;
-    margin-top: 10px;  
-    float: left;
-    padding: 10px;
-
-}
-.a{
-    text-decoration: none;
-    color: aliceblue;
-    margin-left: 50px;
-    margin-top: 10px;  
-    float: left;
-    padding: 10px;
-    border-radius: 5px;
-
-}
-.a:hover{
-    background-color: #15c529;
-    transition: .5s;
-}
-
-
 
 /*--------------Categeries End-------------*/
 
@@ -1002,15 +998,17 @@ position: relative;
 
 /*-----------Notediv start--------------*/
 #notediv{
-    float: left;
-    width: 96%;
-    height: 80px;
+    position: relative;
+    padding: 10px;
+    max-width: 98%;
+    height: auto;
     background-color: #1cb12e;
     color: #fff;
-    margin-left: 2%;
     border-radius: 8px;
     margin-top: 5px;
     position: relative;
+    text-align: justify;
+   
     
 }
 #notediv:hover{
@@ -1020,19 +1018,21 @@ position: relative;
 #notediv p{
     padding: 5px;
     cursor: default;
+    
 }
 #notediv .closebar{
     color: whitesmoke;
-    font-size: 18px;
+    font-size: 25px;
     z-index: 1;
-    float: right;
-    position: relative;
-    border-bottom: 1px dotted black;
-    border-left: 1px dotted black;
-    border-radius: 5px 0px 0px 0px;   
-     padding: 5px 5px 0px 8px;
+    display: block;
+    justify-content: right;
+    position: absolute;
+    border: 1px dotted black;
+   
+    border-radius: 5px 5px 0px 0px;   
+     padding: 5px 5px 0px 5px;
     background-color: #1cb12e;
-    top:-5px;
+    top: -15px;
   
 }
 #notediv .closebar:hover{
@@ -1046,6 +1046,86 @@ position: relative;
 
 
 
+/*-----------Form css start-------------*/
+.form-div-container{
+    position: relative;
+    /*background-color: red;*/
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding: 10px;
+
+}
+.formdiv{
+    width: 50%;
+    background-image: linear-gradient(to right, rgb(23, 0, 128),rgb(2, 0, 128),rgb(2, 0, 128),  white );
+    height: auto;
+    padding:10px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    box-shadow: 20px 15px 12px 0px black;
+    margin-left: 0px;
+
+    
+}
+.formdiv h3{
+    text-align: center;
+    color: white;
+    text-shadow: black 2px 5px 6px;
+}
+.formdiv form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.formdiv form input{
+    width: 80%;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+}
+.formdiv form textarea{
+    width: 80%;
+    height: 100px;
+    border-radius: 8px;
+
+}
+.formdiv form input, .formdiv form textarea{
+    margin: auto;
+    margin-top: 15px;
+}
+.formdiv form #form-submit-btn{
+
+    padding: 10px 20px;
+    background-image: linear-gradient(to right, rgb(23, 0, 128),rgb(2, 0, 128),rgb(2, 0, 128),  white );
+
+    color: white;
+    border: 1px solid whitesmoke;
+    border-radius: 8px;
+
+}
+.formdiv form #form-submit-btn:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: green;
+    border: 1px solid green;      
+    animation: submit-btn-light 0.1s linear infinite;
+    animation-iteration-count: 1;
+    
+}
+
+@keyframes submit-btn-light{
+    0%{
+              background-image: linear-gradient(to right, rgb(23, 0, 128),rgb(2, 0, 128),rgb(2, 0, 128),  white );
+
+    }
+    100%{ background-image: linear-gradient(to right, white , rgb(2, 0, 128),rgb(2, 0, 128), rgb(23, 0, 128));
+    
+  
+    }
+}
+
+/*--Form css End--*/
 
 
 
@@ -1078,20 +1158,19 @@ position: relative;
 
 
 
-
-
+/* 
 #formid{
     behavior: smooth;
 }
 
 .formdiv{
-    float: left;
-    background-image: linear-gradient(to right, rgb(23, 0, 128),rgb(2, 0, 128),rgb(2, 0, 128),  white );
-    width: 40%;
+   position: relative;
+     width: 40%;
     height: 400px;
     margin-left: 30%;
     margin-top: 50px;
     box-shadow: 20px 15px 12px 0px black;
+    padding: 5px;
     
 }
 .formdiv h3{
@@ -1141,14 +1220,18 @@ position: relative;
 #formid{
     transition: 1s;
 }
+*/
+/*________________ Footer CSS Started______________________*/
 
 #footer{
-    float: left;
+
     background-image: linear-gradient(to right, rgb(23, 0, 128),rgb(2, 0, 128),rgb(9, 0, 128),  white );
     color: white;
     width: 100%;
-    height: 200px;
+    height: 140px;
+    padding-bottom: 10px;
     margin-top: 50px;
+    margin-bottom: 0px;
     position: relative;
 }
 #footertext{
@@ -1214,7 +1297,7 @@ color: #4FCE5D;
 }
 
 
-
+/*________________ Footer CSS End______________________*/
 
 
 
@@ -1265,6 +1348,7 @@ color: #4FCE5D;
 }
 
 /*----------privacy page Css Start-----------*/
+
 
 /*----------Downloading page Css-----------*/
 
@@ -1353,7 +1437,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     color: white;
     text-align: center;
     margin: auto;
-        margin-top: 15px;
+    margin-top: 15px;
 
     border: 1px solid white;
     border-radius: 5px;
@@ -1376,6 +1460,96 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 
 /*----------Downloading page Css end-----------*/
 
+/*----------Downloading Container Css Start-----------*/
+#d-container{
+    display:none;
+}
+#downloading-container{
+    position: fixed;
+    display: block;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: black;
+    opacity: .8;
+
+   
+   
+  
+    z-index: 3;
+            
+}
+.close-downloading-container{
+    position: absolute;
+    float: right;
+    top: 10px;
+    right: 20px;
+    font-size: 20px;
+    font: bold;
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px;
+    cursor: pointer;
+    border: 1px solid blueviolet;
+    background: none;
+}
+.close-downloading-container:hover{
+    transform: scale(1.5);
+    border: none;
+}
+.downloading-container-content{
+    width: 80%;
+    height: 500px;
+    left: 10%;
+    top: 50px;
+    background-color: whitesmoke;
+    margin: auto;
+    position: fixed;
+    display: block;
+    justify-content: center;
+    z-index: 4;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 20px;
+    overflow-x: scroll;
+    overflow-y: none;
+}
+.downloading-container-content h1{
+    text-align: center;
+    color: #117c8a;
+    text-shadow: 1px 1px 3px black;
+    border-bottom: 1px solid black;
+}
+
+.downloading-links{
+    display: block;
+    
+    justify-content: center;
+ 
+}
+.downloading-links a{
+    width: auto;
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    background-color: #110c0c;
+    border: 1px solid #117c8a;
+    border-radius: 5px;
+    box-shadow: 1px 1px 15px #0ec6df;
+    margin-top: 25px;
+
+}
+.downloading-links a:hover{
+    color: black;
+    background-color: whitesmoke;
+    border: 2px solid #0ec6df;
+      box-shadow: 1px 1px 18px #0ec6df;;
+}
+
+
+/*----------Downloading Container Css End-----------*/
 
 
 
@@ -1693,14 +1867,17 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 
 
 /*------Movies Started----------*/
+  
 
-    
+#all_movies{
+    height: 3800px;
+}
     .movie1{
         float: left;
-        width: 40%;
-        height: 500px;
+        width: 30%;
+        height: 400px;
         margin-top: 20px;
-        margin-left: 5%;
+        margin-left: 2%;
         overflow: hidden;
 }
     .movie1 .text{
@@ -1713,7 +1890,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
        
     }
     .movie1 img{
-        height: 450px;
+        height: 350px;
     }
 
     
@@ -1784,8 +1961,12 @@ position: relative;}
 }
 /*----------Detail page Css End------------*/
 
+/*------------ fOOTER cSS---------------*/
+#footer{
+    height: 140px;
+    padding-bottom: 10px;
 
-
+}
 /* On smaller screens, decrease text size 
 @media only screen and (max-width: 300px) {
     .text {font-size: 11px}
@@ -1896,7 +2077,7 @@ nav .socialdiv{
 
 
 
-
+/*------------- Menu Bar - Mobile nav Css------------*/
 
 
 
@@ -2177,9 +2358,9 @@ float: left;
 .detail-container{
     height: auto;
     padding: 15px;
-    margin-top: 150px;
+    margin-top: 50px;
     position: relative;
-    width: 80%;
+    width: auto;
         display: block;
         justify-content: center;
         padding-bottom: 50px;
@@ -2209,6 +2390,8 @@ float: left;
 }
 .movie-detail ul{
     top: 30px;
+    display: block;
+
     
 }
 .storylinediv{
@@ -2224,8 +2407,10 @@ height: auto;
 margin-top: 100px;
 position: relative;
 }
+
 /*----------Detail page Css End------------*/
 
+/*----------P Number Css------------*/
  
    
   .pnumber{
@@ -2267,77 +2452,39 @@ position: relative;
 
 
 
-        /*--Form css start--*/
-
-    .formdiv{
-        float: left;
-        background-image: linear-gradient(to right, rgb(23, 0, 128),rgb(2, 0, 128),rgb(2, 0, 128),  white );
-
-        width: 70%;
-        height: 400px;
-        margin-left: 15%;
-        margin-top: 50px;
-        box-shadow: 20px 15px 12px 0px black;
-        
-    }
-    .formdiv h3{
-        text-align: center;
-        color: white;
-        text-shadow: black 2px 5px 6px;
-    }
-    .formdiv form{
-        float: left;
-        width: 100%;
-    }
-    .formdiv form input{
-        width: 80%;
-        margin-left: 10%;
-        height: 30px;
-        border: none;
-        border-radius: 8px;
-    }
-    .formdiv form textarea{
-        width: 80%;
-        margin-left: 10%;
-        height: 100px;
-        border-radius: 8px;
+/*-----------Notediv start--------------*/
+#notediv{
+    float: left;
+    padding: 10px;
+    max-width: 98%;
+    height: auto;
+    background-color: #1cb12e;
+    color: #fff;
+    border-radius: 8px;
+    margin-top: 50px;
+    position: relative;
+    text-align: justify;
+   
     
-    }
-    .formdiv form button{
-        float: left;
-        margin-left: 40%;
-        width: 20%;
-        height: 30px;
-        background-color: black;
-        color: white;
-        border-radius: 8px;
-        border: none;
-        
-    }
-    .formdiv form button:hover{
-        background-color: gray;
-        transition: 0.5s;
-    }        
-    
-    /*--Form css End--*/
+}
+/*-----------Notediv start END--------------*/
+
+/*==========Form Css======*/
+
+.formdiv{
+    width: 70%;
+}
 
     
     /*--------Footer Css start------------*/
-    .footer{
-        float: left;
-        background-color: rgb(18, 22, 22);
+    #footer{
+
+        background-image: linear-gradient(to right, rgb(23, 0, 128),rgb(2, 0, 128),rgb(9, 0, 128),  white );
         color: white;
         width: 100%;
-        height: 80px;
-        margin-top: 50px;
-    }
-    .footertext{
-        background-color: rgb(18, 22, 22);
-        float: left;
-        width: 60%;
-        text-align: center;
-        margin-left: 20%;
-        font-size: x-small;
+        
+        padding-bottom: 10px;
+    
     }
     
     
