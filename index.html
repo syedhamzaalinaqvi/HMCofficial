@@ -290,86 +290,11 @@
         <div class="copyrightdiv"><copyrighttxt class="copyrighttxt "> &copy Copy Right 2023</copyrighttxt > </div>
           </div>
       
-       
+       <script src="script.js"></script>
 
 
 
-          <script src="main.js"></script>
-          <script>
-           /*===========  Search Filter JS ==================*/
-           var filter = document.getElementById('myInput');
-          filter.addEventListener('blur',()=>{
-            filter.style.border='1px solid blue';
-          })
-          filter.addEventListener('focus',()=>{
-            filter.style.border='1px solid green';
-          })
-           filter.addEventListener('keyup', () =>{
-          let searchbar  = filter.value.toUpperCase();
-          let Allmovies = document.getElementById('all_movies');
-          let movie1= Allmovies.getElementsByClassName('movie1');
-          
-          for(var i = 0; i < movie1.length ; i++ ){
         
-          let link= movie1[i].getElementsByTagName('a')[0];    
-            let textvalue =  link.textContent || link.innerText ;   
-            if(textvalue.toUpperCase().indexOf(searchbar) > -1 ){
-              movie1[i].style.display= ""; 
-             }else{
-              movie1[i].style.display="none";
-             }
-           }
-            })
-/* -------------------Load more js start--------*/
- /*var load_more_p1 = document.getElementsById('load-more-btn');
- load_more_p1.addEventListener("click",() =>{
-  document.getElementById('all_movies').style.height="3000px";
- });*/
- var Allmovies = document.getElementById("all_movies");
- var load_more_btn1 = document.getElementById('load-more-btn1');
- var load_more_btn2 = document.getElementById('load-more-btn2');
- var load_more_btn3 = document.getElementById('load-more-btn3');
- var load_more_btn4 = document.getElementById('load-more-btn4');
- var load_more_btn5 = document.getElementById('load-more-btn5');
- var load_more_btn6 = document.getElementById('load-more-btn6');
-
- function load_more_p1(){
-           Allmovies.style.height= "5760px";
-           load_more_btn1.style.display="none";
-           load_more_btn2.style.display="block";
-           load_more_btn3.style.display="none";
-           load_more_btn4.style.display="none";
-           load_more_btn5.style.display="none";
-           load_more_btn6.style.display="none";
-         }
-         function load_more_p2(){
-           document.getElementById('all_movies').style.height = '8640px';
-           load_more_btn1.style.display="none";
-           load_more_btn2.style.display="none";
-           load_more_btn3.style.display="block";
-           load_more_btn4.style.display="none";
-           load_more_btn5.style.display="none";
-           load_more_btn6.style.display="none";
-         }
-         function load_more_p3(){
-           document.getElementById('all_movies').style.height = '11520px';
-           load_more_btn1.style.display="none";
-           load_more_btn2.style.display="none";
-           load_more_btn3.style.display="none";
-           load_more_btn4.style.display="block";
-           load_more_btn5.style.display="none";
-           load_more_btn6.style.display="none";
-         }
-         function load_more_p4(){
-           document.getElementById('all_movies').style.height = '11520px';
-           load_more_btn1.style.display="none";
-           load_more_btn2.style.display="none";
-           load_more_btn3.style.display="none";
-           load_more_btn4.style.display="none";
-           load_more_btn5.style.display="block";
-           load_more_btn6.style.display="none";
-         }
-        </script>
             
  </body>
 </html>

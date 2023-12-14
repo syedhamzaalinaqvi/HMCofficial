@@ -14,6 +14,9 @@
                  crossorigin="anonymous"></script><script type='text/javascript' src='//pl20364355.highcpmrevenuegate.com/e8/1b/55/e81b5501b463c503e99299563d90a2bd.js'></script>
         </head>
 <body>
+
+    <!-- ===-Head Started-===== -->
+
 <div class="head">
                  
    <nav id="nav">
@@ -94,11 +97,50 @@
 
 
 
+  <!-- Download Container -->
+  <div id="d-container">
+    <div class="downloading-container" id="downloading-container">
+      <button  class="close-downloading-container" id="close-downloading-container"><span class="close-downloading-container-icon">x</span> </button>
+    </div>
+    <div class="downloading-container-content downloading-links">
+      <h1>Downloading Server</h1>
+      <a href="https://drive.google.com/uc?id=1MbVefSi6kMI8J_P0ucmoCjoFMQ8tz45M">Download</a>
+    </div>
+  </div>
 
-<div class="downloadingnxtbtn" id="downloadingnxtbtn">
-<a href="baaghi3_download.html" target="blank"  >Click to Next</a>
-</div>
-</div>
+<!-- Go to Download Button -->
+    <div class="downloadingnxtbtn" id="downloadingnxtbtn">
+      <button id="go-to-download">Go to Download</button>
+    </div>
+  </div>
+
+  <script>
+    //============= Downloading Cntainer ===============
+var go_to_download = document.getElementById("go-to-download");
+const downloading_container = document.getElementById("d-container");
+go_to_download.addEventListener("click", () => {
+  downloading_container.style.display = "block";
+});
+const close_downloading_container = document.getElementById("close-downloading-container").addEventListener("click", () => {
+  downloading_container.style.display = "none";
+
+});
+    /*----------------------Movile Nav----------------------------------------------
+
+    document.getElementById("fa-bars").addEventListener("click", function () {
+      document.getElementById("mobilenav").style.marginLeft = "0%";
+      document.getElementById("mobilenav").style.transition = "0.5s%";
+
+    });
+
+    document.getElementById("closebar").addEventListener("click", function () {
+      document.getElementById("mobilenav").style.marginLeft = "-100%"
+      document.getElementById("mobilenav").style.transition = "1.5s"
+
+    });
+    /*--Movile Nav End*/
+  </script>
+
 
 
 

@@ -19,23 +19,12 @@
   <script src="https://kit.fontawesome.com/5013575cda.js" crossorigin="anonymous"></script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8130991342525434"  crossorigin="anonymous"></script>
   <script type='text/javascript' src='//pl20364355.highcpmrevenuegate.com/e8/1b/55/e81b5501b463c503e99299563d90a2bd.js'></script>
-
+ 
 </head>
 
 
 <body>
 
-
-  <!-- Download Container -->
-  <div id="d-container">
-    <div class="downloading-container" id="downloading-container">
-      <button  class="close-downloading-container" id="close-downloading-container"><span class="close-downloading-container-icon">x</span> </button>
-    </div>
-    <div class="downloading-container-content downloading-links">
-      <h1>Downloading Server</h1>
-      <a href="https://drive.google.com/uc?id=1MbVefSi6kMI8J_P0ucmoCjoFMQ8tz45M">Download</a>
-    </div>
-  </div>
 
 
   <!-- Head started -->
@@ -61,7 +50,7 @@
 
 
 
-    <div class="h1">
+    <div class="h1" id="h1">
       <h1> HAMZAMOVIESCLUB</h1>
     </div>
     <div class="searchbox"><button>Search <input type="search" name="search" placeholder="search here"> </button></div>
@@ -97,7 +86,7 @@
 
 <div class="movie-title"> <h1>65 full Movie free Download HD, Download 65 full Movie in 480p - 720p - 1080p in 400mb - 600mb 1GB.</h1></div>
 
-  <div class="detail-container">
+  <div class="detail-container" id="detail-container">
     
     <!-- Movie Discription -->
 
@@ -105,8 +94,10 @@
     
     <!-- Movie Image  -->
     <img src="web1pic\65.jpeg" alt="65-movie">
-
-    <!-- Movie Detail with ul -->
+    
+        <!-- IMBD Detail script   -->
+   
+        <!-- Movie Detail with ul -->
     <div class="movie-detail">
       <h2 class="movie-detail-heading"> Movie Short Detail</h2>
       <ul>
@@ -134,12 +125,35 @@
       way across an unknown terrain riddled with dangerous prehistoric creatures in an epic fight to survive.
 
     </div>
+    
+  <!-- Download Container -->
+  <div id="d-container">
+    <div class="downloading-container" id="downloading-container">
+      <button  class="close-downloading-container" id="close-downloading-container"><span class="close-downloading-container-icon">x</span> </button>
+    </div>
+    <div class="downloading-container-content">
+      <h1>Downloading Server</h1>
+
+      <div class="downloading-server-animation-div" >
+        <img class="downloading-server-animation-gif" src="webpic/loading_server_animation.gif" alt="downloading Server loading...">
+      </div>
+      <div class="downloading-links"><a href="https://drive.google.com/uc?id=1MbVefSi6kMI8J_P0ucmoCjoFMQ8tz45M">Download</a></div>
+      
+    </div>
+  </div>
+
 <!-- Go to Download Button -->
     <div class="downloadingnxtbtn" id="downloadingnxtbtn">
       <button id="go-to-download">Go to Download</button>
     </div>
-  </div>
+  
+  
 
+  <div class="movie-trailer-div" id="movie-trailer-div"> 
+    <h3>Trailer</h3>
+    <iframe  src="https://www.youtube.com/embed/bHXejJq5vr0?si=Prbl3KCPlH_btFvC" title="YouTube video player" frameborder="3" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+</div>
   
 
 
@@ -152,8 +166,7 @@
 
 
 
-
-
+<script src="main.js"></script>
 
 
   <div class="footer" id="footer">
@@ -171,32 +184,6 @@
     </div>
   </div>
 
-  <script>
-    //============= Downloading Cntainer ===============
-var go_to_download = document.getElementById("go-to-download");
-const downloading_container = document.getElementById("d-container");
-go_to_download.addEventListener("click", () => {
-  downloading_container.style.display = "block";
-});
-const close_downloading_container = document.getElementById("close-downloading-container").addEventListener("click", () => {
-  downloading_container.style.display = "none";
-
-});
-    /*----------------------Movile Nav----------------------------------------------
-
-    document.getElementById("fa-bars").addEventListener("click", function () {
-      document.getElementById("mobilenav").style.marginLeft = "0%";
-      document.getElementById("mobilenav").style.transition = "0.5s%";
-
-    });
-
-    document.getElementById("closebar").addEventListener("click", function () {
-      document.getElementById("mobilenav").style.marginLeft = "-100%"
-      document.getElementById("mobilenav").style.transition = "1.5s"
-
-    });
-    /*--Movile Nav End*/
-  </script>
 </body>
 
 </html>

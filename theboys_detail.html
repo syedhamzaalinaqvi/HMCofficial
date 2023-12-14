@@ -97,20 +97,151 @@
 
 
 <div class="downloadingsznbtn" id="downloadingsznbtn">
-<a href="theboyss1_download.html" target="blank"  >Season 1</a>
+    <button target="_blank" id="season1"> Season 1 720p</button>
 </div>
 
 <div class="downloadingsznbtn" id="downloadingsznbtn">    
-    <a href="theboyss2_download.html" target="blank"  >Season 2</a>
+    <button target="_blank" id="season2"> Season 2 720p</button>
     </div>
 
     
 <div class="downloadingsznbtn" id="downloadingsznbtn">       
-     <a href="theboyss3_download.html" target="blank"  >Season 3</a>
+ <button target="_blank" id="season3"> Season 3 720p</button>
         </div>
 
                 
 </div>
+
+  <!-- Download Container -->
+  <div id="d-container">
+    <div class="downloading-container" id="downloading-container">
+      <button  class="close-downloading-container" id="close-downloading-container">
+        <span class="close-downloading-container-icon">x</span> </button>
+    </div>
+    <div class="downloading-container-content downloading-links">
+      <h1>Downloading Server</h1>
+      <div class="downloading-links" id="season1-links">
+        <a href="https://drive.google.com/uc?id=1-cOcfdLzRQFm13mUR4eu7vhEjgPs0j4G" target="_blank" > S01-EP01  </a> 
+        <a href="https://drive.google.com/uc?id=1-fcBG4oS7XEl3hFdi9cKkqiyaXGfOlFx" target="_blank" > S01-EP02  </a> 
+        <a href="https://drive.google.com/uc?id=1-hg6jmE-knhkVCk8BymObjwXgZO5CQqy" target="_blank" > S01-EP03  </a> 
+        <a href="https://drive.google.com/uc?id=1-jvoWY6ZFNzQ_yQNO20HvAHawUwSromR" target="_blank" > S01-EP04  </a> 
+        <a href="https://drive.google.com/uc?id=1-RpCepSEtGB9uw9xidHQPhGtPOkO60ZH" target="_blank" > S01-EP05  </a> 
+        <a href="https://drive.google.com/uc?id=1-RyvCcO9LtKKR5vYX7ls_PHx9USZgxXX" target="_blank" > S01-EP06  </a> 
+        <a href="https://drive.google.com/uc?id=1-U9poPXGT5L70oMJymlKY6dv4hJPAD5R" target="_blank" > S01-EP07  </a> 
+        <a href="https://drive.google.com/uc?id=1-WlqS68AypAylh2tw8GB_SwB3irfRHEe" target="_blank" > S01-EP08  </a>           
+    </div>
+    <br>
+    <div class="downloading-links" id="season2-links">
+        <a href="https://drive.google.com/uc?id=106Qgb2BKM84Rj6tiQCsgaMQH4wIsyM01" target="_blank"> S02-EP01</a> 
+        <a href="https://drive.google.com/uc?id=107Q_rfp9yjPhb6vRbX9MWOePBO7151M5" target="_blank"> S02-EP02</a> 
+        <a href="https://drive.google.com/uc?id=1-w1NP3JeHAKMj__neVViEKw-NTFuRpS7" target="_blank"> S02-EP03</a> 
+        <a href="https://drive.google.com/uc?id=1-w2uslEjaEQkZmx_Vf5D-926jKSw-dxO" target="_blank"> S02-EP04</a> 
+        <a href="https://drive.google.com/uc?id=1058n4nvE3apYVihGeFPk-D1lH53QEMt5" target="_blank"> S02-EP05</a> 
+        <a href="https://drive.google.com/uc?id=1-w9VggQLQvAQx6te-WYcxmvcw6n2nbLU" target="_blank"> S02-EP06</a> 
+        <a href="https://drive.google.com/uc?id=1-yjQh7_BJdiFcA6XILBjH12d6ovU_DBs" target="_blank"> S02-EP07</a> 
+        <a href="https://drive.google.com/uc?id=1053F7DKjy8gBZ6jNClGcKlqYBsyP13qx" target="_blank"> S02-EP08</a> 
+    </div>
+    <div class="downloading-links" id="season3-links">
+        <a href="https://drive.google.com/uc?id=11RL0fMLT_5sn4v7TsomGtbjsJ5PkfK3v" target="_blank"> S03-EP01</a>
+        <a href="https://drive.google.com/uc?id=1SK5ADGNbKDDv0qrjZBTB9-XUEdCw-Hxp" target="_blank"> S03-EP02</a>
+        <a href="https://drive.google.com/uc?id=1WMaN6dewQldiC1QkdwJHUU9X7skFUbrM" target="_blank"> S03-EP03</a>
+        <a href="https://drive.google.com/uc?id=1KvEC72BAesK08yO6hhN4GnhyedGb22jW" target="_blank"> S03-EP04</a>
+        <a href="https://drive.google.com/uc?id=10TZbrfT_Wi-ZR3Rqlqy8_8ikPq4eqynQ" target="_blank"> S03-EP05</a>
+        <a href="https://drive.google.com/uc?id=10TwJn-5eOyAiR3cIrlxg_AkaHjlzZiF2" target="_blank"> S03-EP06</a>
+        <a href="https://drive.google.com/uc?id=10X5jffSR-d_xhliWbdUMRXjW-oUtRyBP" target="_blank"> S03-EP07</a>
+        <a href="https://drive.google.com/uc?id=10Zu02zmLb0twFc2MdGbbuNQATktxkb0e" target="_blank"> S03-EP08</a>
+    </div>
+</div>
+  </div>
+
+  <script>
+        
+    // var go_to_download = document.getElementById("go-to-download");
+    const d_container = document.getElementById("d-container");
+    const season1_links = document.getElementById('season1-links');
+    const season2_links = document.getElementById('season2-links');
+    const season3_links = document.getElementById('season3-links');
+    const season4_links = document.getElementById('season4-links'); 
+    const season5_links = document.getElementById('season5-links'); 
+    const season6_links = document.getElementById('season6-links');  
+    const season1 = document.getElementById("season1");
+    const season2 = document.getElementById("season2");
+    const season3 = document.getElementById("season3");
+    const season4 = document.getElementById("season4");
+    const season5 = document.getElementById("season5");
+    const season6 = document.getElementById("season6");
+    const close_downloading_container = document.getElementById("close-downloading-container");    
+    close_downloading_container.addEventListener("click", () => {
+        d_container.style.display = "none";
+
+    });
+
+    d_container.style.display='none';
+    season1.addEventListener("click", () => {
+        
+        d_container.style.display = "block";
+        season1_links.style.display="";
+        season2_links.style.display="none";
+        season3_links.style.display="none";
+        season4_links.style.display="none";
+        season5_links.style.display="none";
+        season6_links.style.display="none";
+    });
+    season2.addEventListener("click", () => {
+        
+        d_container.style.display = "block";
+        season1_links.style.display="none"
+        season2_links.style.display="";
+        season3_links.style.display="none";
+        season4_links.style.display="none";
+        season5_links.style.display="none";
+        season6_links.style.display="none";
+
+        
+    });
+    season3.addEventListener("click", () => {
+        
+        d_container.style.display = "block";
+        season1_links.style.display="none";
+        season2_links.style.display="none";
+        season3_links.style.display="";
+        season4_links.style.display="none";
+        season5_links.style.display="none";
+        season6_links.style.display="none";
+    });
+    season4.addEventListener("click", () => {
+        
+        d_container.style.display = "block";
+        season1_links.style.display="none";
+        season2_links.style.display="none";
+        season3_links.style.display="none";
+        season4_links.style.display="";
+        season5_links.style.display="none";
+        season6_links.style.display="none";
+    });
+    season5.addEventListener("click", () => {
+        
+        d_container.style.display = "block";
+        season1_links.style.display="none";
+        season2_links.style.display="none";
+        season3_links.style.display="none";
+        season4_links.style.display="none";
+        season5_links.style.display="";
+        season6_links.style.display="none";
+    });
+    season6.addEventListener("click", () => {
+        
+        d_container.style.display = "block";
+        season1_links.style.display="none";
+        season2_links.style.display="none";
+        season3_links.style.display="none";
+        season4_links.style.display="none";
+        season5_links.style.display="none";
+        season6_links.style.display="";
+    });
+
+
+</script>
 
 
 

@@ -1,9 +1,11 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #000000;
+    background-image: url("web1pic/hmc-bg-image.png");
+    
      box-sizing: border-box;
      width: 100%;
+
 }
 #myInput{
     text-align: center;
@@ -228,11 +230,10 @@ text-shadow: gray 1px 5px 16px;
 
 
 .head{
-      
 }
 .head h1{
+    display: none;
     background-color: white;
-    
     width: 100%;
     text-align: center;
     position: relative;
@@ -722,7 +723,7 @@ border: none;
 .movie1 img:hover{
     opacity: .6;
     transition: 0.5s;
-        transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
 
 }
 .movie1 a:hover{
@@ -802,128 +803,6 @@ border: none;
 }
 
 
-
-
-
-
-
-/*----------Detail page Css star------------*/
-.movie-title{
- color: whitesmoke;
- text-align: center;
-}
-.detail-container{
-    width: 90%;
-    height: auto;
-    margin: auto;
-    margin-top: 80px;
-    position: relative;
-    box-shadow: 2px 3px 25px gray; 
-    border-radius: 5px;
-    border-bottom: 1px solid grey;
-    padding: 30px;
-    
-
-}
-
-.disc-movie-div{
-    padding: 10px;
-    border-bottom: 1px solid white;
-}
-.disc-movie-div p{
-    color: whitesmoke;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.detail-container img{
-    height: 500px;
-    width: 350px;
-    margin:auto;
-    margin-top: 20px;
-    position: relative;
-    display: block;
-
-}
-.detail-container img:hover{
-    transform: rotateY(-180deg);
-}
-.movie-detail{
-    height: 300px;
-    width: 60%;
-    margin-top: 20px;
-    position: relative;
-    font-size: larger;
-    color: white;
-    margin-left: 200px;
-}
-.movie-detail-heading{
-    color: green;
-    text-align: center;
-}
-.movie-detail ul{
-    top: 30px;
-    
-}
-.storylinediv{
-    width: 80%;
-    position: relative;
-    margin: auto;
-    margin-top: 20px;
-    text-align: center;
-    color: white;
-}
-.storylineheading{
-    color: yellow;
-}
-#downloadingnxtbtn{
-width: 100%;
-margin-top: 150px;
-text-align: center;
-position: relative;
-}
-#downloadingnxtbtn button{
-    text-decoration: none;
-    color: white;
-    padding: 10px 20px 10px 20px;
-    background-color: #1410f3;
-    border-radius: 8px;
-    
-
-}
-#downloadingnxtbtn button:hover{
-    background-color: #08067e;
-
-}
-
-
-
-.downloadingsznbtn{
-    width: 100%;
-    margin-top: 50px;
-    text-align: center;
-    position: relative;
-    }
-.comingsoon a{
-    background-color:grey;
-
-}
-.comingsoon a:hover{
-    background-color:rgb(78, 76, 76);
-
-}
-.downloadingsznbtn button{
-        text-decoration: none;
-        color: white;
-        padding: 10px 20px 10px 20px;
-        background-color: #1410f3;
-        border-radius: 8px;
-    
-    }
-    .downloadingsznbtn button:hover{
-        background-color: #08067e;
-    
-    }
-
-/*----------Detail page Css End------------*/
 
 
 
@@ -1224,46 +1103,55 @@ position: relative;
 /*________________ Footer CSS Started______________________*/
 
 #footer{
-
     background-image: linear-gradient(to right, rgb(23, 0, 128),rgb(2, 0, 128),rgb(9, 0, 128),  white );
     color: white;
     width: 100%;
-    height: 140px;
-    padding-bottom: 10px;
     margin-top: 50px;
     margin-bottom: 0px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
 }
 #footertext{
- float: left;
- width: 100%;
-
+    padding: 0%;
+/* width: 100%;
  height: 64px;
-
+*/
 }
 #footertext .h3{
+    text-align: center;
     font-size: 32px;
-    padding: 5px;
+    padding: 0;
     padding-top: 0;
     font-weight: 300;
-    text-align: center;
+    
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-#footer .footersocial{
-    float: left;
+.footersocial{
+display: flex;
+flex-direction: row;  
+justify-content: center;
+ border-top: 1px solid whitesmoke;
+  /*
+    background-color: #4FCE5D;
+    padding: 10px;
     margin-top: 5px;
-    border-top: 1px solid whitesmoke;
-    width: 100%;
-    text-align: center;
+   
     font-size: 25px;
-   
-   
     overflow: hidden;
+*/
+}
+#fa-facebook, #fa-whatsapp{
+font-size: 22px;
+padding: 5px;
+margin: 3px;
 
 }
-
 #fa-facebook{
 color: #1877f2 ;
+
 }
 #fa-facebook:hover{
         transform: rotate(360deg);
@@ -1283,14 +1171,12 @@ color: #4FCE5D;
 }
 
 #footer .copyrightdiv{
-    float: left;
-    width: 100%;
-   
-    margin-top: 50px;
+   position: relative;
+    padding: 10px;
+
 }
 #footer .copyrightdiv .copyrighttxt{
-    float: right;
-    margin-right: 10px;
+    float: right;    
     font-size: 12px;
     font-style: italic;
     color: #000;
@@ -1349,6 +1235,150 @@ color: #4FCE5D;
 
 /*----------privacy page Css Start-----------*/
 
+
+
+
+
+/*----------Detail page Css star------------*/
+.movie-title{
+    color: whitesmoke;
+    text-align: center;
+   }
+   .detail-container{
+       width: 90%;
+       height: auto;
+       margin: auto;
+       margin-top: 80px;
+       position: relative;
+       box-shadow: 2px 3px 25px gray; 
+       border-radius: 5px;
+       border-bottom: 1px solid grey;
+       padding: 30px;
+       
+   
+   }
+   
+   .disc-movie-div{
+       padding: 10px;
+       border-bottom: 1px solid white;
+   }
+   .disc-movie-div p{
+       color: whitesmoke;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   .detail-container img{
+       height: 500px;
+       width: 350px;
+       margin:auto;
+       margin-top: 20px;
+       position: relative;
+       border: 2px solid white;
+       display: block;
+   
+   }
+   .detail-container img:hover{
+       transform: rotateY(-180deg);
+   }
+   .movie-detail{
+       height: 300px;
+       width: 60%;
+       margin-top: 20px;
+       position: relative;
+       font-size: larger;
+       color: white;
+       margin-left: 200px;
+   }
+   .movie-detail-heading{
+       color: green;
+       text-align: center;
+   }
+   .movie-detail ul{
+       top: 30px;
+       
+   }
+   .storylinediv{
+       width: 80%;
+       position: relative;
+       margin: auto;
+       margin-top: 20px;
+       text-align: center;
+       color: white;
+   }
+   .storylineheading{
+       color: yellow;
+   }
+   #downloadingnxtbtn{
+   width: 100%;
+   margin-top: 150px;
+   text-align: center;
+   position: relative;
+   }
+   #downloadingnxtbtn button{
+       text-decoration: none;
+       color: white;
+       padding: 10px 20px 10px 20px;
+       background-color: #1410f3;
+       border-radius: 8px;
+       
+   
+   }
+   #downloadingnxtbtn button:hover{
+       background-color: #08067e;
+   
+   }
+   
+   
+   
+   .downloadingsznbtn{
+       width: 100%;
+       margin-top: 50px;
+       text-align: center;
+       position: relative;
+       }
+   .comingsoon a{
+       background-color:grey;
+   
+   }
+   .comingsoon a:hover{
+       background-color:rgb(78, 76, 76);
+   
+   }
+   .downloadingsznbtn button{
+           text-decoration: none;
+           color: white;
+           padding: 10px 20px 10px 20px;
+           background-color: #1410f3;
+           border-radius: 8px;
+           cursor: pointer;
+       
+       }
+       .downloadingsznbtn button:hover{
+           background-color: #08067e;
+       
+       }
+   
+   .movie-trailer-div{
+       position: relative;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+   
+   }
+   .movie-trailer-div iframe{
+       height: 315px;
+   }
+   .movie-trailer-div h3{
+   text-align: center;    
+   padding: 20px 0px;
+   color: white;
+   font-size: 25px;
+   }
+   
+   /*----------Detail page Css End------------*/
+   
+   
+   
+   
 
 /*----------Downloading page Css-----------*/
 
@@ -1422,6 +1452,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     text-decoration: none;
     color: white;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .downloadinglink1:hover{
@@ -1471,14 +1502,10 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     width: 100%;
     height: 100%;
     top: 0;
+    left: 0;
     background-color: black;
-    opacity: .8;
-
-   
-   
-  
-    z-index: 3;
-            
+    opacity: .8;  
+    z-index: 2;
 }
 .close-downloading-container{
     position: absolute;
@@ -1506,14 +1533,16 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     background-color: whitesmoke;
     margin: auto;
     position: fixed;
-    display: block;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    z-index: 4;
     text-align: center;
     padding: 10px;
     padding-bottom: 20px;
     overflow-x: scroll;
     overflow-y: none;
+    z-index: 3;
+    background-color: #0e6919;
 }
 .downloading-container-content h1{
     text-align: center;
@@ -1521,16 +1550,30 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     text-shadow: 1px 1px 3px black;
     border-bottom: 1px solid black;
 }
-
-.downloading-links{
-    display: block;
-    
+.downloading-server-animation-div{
+    position: relative;
+    display: flex;
     justify-content: center;
- 
+   
+   
+}
+.downloading-server-animation-div img{
+    
+    max-height: 300px;
+    max-width: 300px;
+}
+.downloading-server-animation-div img:hover{
+transform: none;
+}
+.downloading-links{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .downloading-links a{
-    width: auto;
-    display: block;
+    width: 40%;
+    margin: auto;
     text-decoration: none;
     color: white;
     padding: 10px 30px;
@@ -1539,7 +1582,8 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     border-radius: 5px;
     box-shadow: 1px 1px 15px #0ec6df;
     margin-top: 25px;
-
+    cursor: pointer;
+    text-align: center;
 }
 .downloading-links a:hover{
     color: black;
@@ -2064,7 +2108,7 @@ nav .socialdiv{
 
     }
     .head h1{
-        background-color: white;
+        display: none;
         float: left;
         width: 100%;
         text-align: center;
@@ -2083,12 +2127,11 @@ nav .socialdiv{
 
 
 .menubardiv{
-    float: left;
     width: 100%;
     text-align: center;
    /* background-color: #1935e7;*/
    position: relative;
-}
+top: 50px;}
 #fa-bars{
  z-index: 1;
  font-size: 40px;
