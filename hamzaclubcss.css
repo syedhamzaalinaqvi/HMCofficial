@@ -1518,11 +1518,12 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     color: white;
     padding: 5px 15px;
     cursor: pointer;
-    border: 1px solid blueviolet;
+    border: 1px solid whitesmoke;
     background: none;
+    border-radius: 50%;
 }
 .close-downloading-container:hover{
-    transform: scale(1.5);
+    transform: scale(2);
     border: none;
 }
 .downloading-container-content{
@@ -1539,14 +1540,13 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     text-align: center;
     padding: 10px;
     padding-bottom: 20px;
-    overflow-x: scroll;
-    overflow-y: none;
+    overflow: scroll;
     z-index: 3;
-    background-color: #0e6919;
+    background-color: #0e1c69;
 }
 .downloading-container-content h1{
     text-align: center;
-    color: #117c8a;
+    color:whitesmoke;
     text-shadow: 1px 1px 3px black;
     border-bottom: 1px solid black;
 }
@@ -1584,6 +1584,8 @@ transform: none;
     margin-top: 25px;
     cursor: pointer;
     text-align: center;
+ 
+
 }
 .downloading-links a:hover{
     color: black;
